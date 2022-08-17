@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.aboutus{
+    width: 75%;
+    box-sizing: border-box;
+    border: transparent;
+}
+
+.aboutus h1{
+    text-align: center;
+    padding-top: 10px ;
+    font: size 35px;
+    font-weight: bold;
+    color:black;
+}
+
+.aboutus h3{
+    text-align: center;
+    padding-top: 10px ;
+    font: size 35px;
+    font-weight: bold;
+    color:black;
+}
+
+.aboutus p{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.aboutus img{
+    float: left;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+@media
+Screen and (max-width: 600px){
+    .navbar{
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+    }
+     
+    footer{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    img{
+        max-width: 100%;
+    }
+
+}
