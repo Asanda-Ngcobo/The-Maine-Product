@@ -22,21 +22,7 @@
         margin: 0.5rem;
     }
 
-    footer{
-    background-color: white;
-}
-
-footer ul{
-    text-align: left;
-}
-footer ul li{
-    display: inline-block;
-    border: 0.5rem light black;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: 10px;
-    color: black;
-}
+   
 
     .navbar ul{
            text-align: center;
