@@ -207,6 +207,7 @@ Screen and (max-width: 800px){
         height: 100%;
         overflow-x: hidden;
         background-color: white;
+        margin-top: 5px;
         
     }
     
@@ -220,6 +221,8 @@ Screen and (max-width: 800px){
     .homebar img{
         margin-right: 0%;
         margin-top: 5%;
+        float: right;
+        margin-right: 10%;
         
         
     }
@@ -268,10 +271,6 @@ Screen and (max-width: 800px){
         background-color: grey;
     }
 
-main h2{
-    font-size: 12px;
-    font-weight: bolder;
-}
 
 .content img{
     width: 45%;
@@ -306,11 +305,11 @@ main h2{
     main h2{
         text-align: center;
         color: black;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 800;
         margin-left:0% ;
         padding-right: 10%;
-        margin-top: 55%;
+        margin-top: 75%;
         width: 100%;
         font-family:'Times New Roman', Times, serif;
         
