@@ -330,6 +330,7 @@ Screen and (max-width: 800px){
     }
      .instruction{
         display: inline;
+        list-style:none;
     }
 }
 
