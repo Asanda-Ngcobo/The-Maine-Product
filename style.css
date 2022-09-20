@@ -168,7 +168,9 @@ main h2{
      padding: 10px;
     }
    
-    
+   .instruction{
+        display: none;
+    }  
 footer{
     background-color: black;
     height: 150px;
@@ -325,6 +327,9 @@ Screen and (max-width: 800px){
     width: 70%;
     margin: 20px;
     
+    }
+     .instruction{
+        display: inline;
     }
 }
 
