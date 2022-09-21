@@ -256,6 +256,9 @@ Screen and (max-width: 800px){
         border-bottom: none;
     }
 
+     .homebar:hover .menu-bar ul li:first-child{
+        margin-top:50px;
+    }
     .homebar:hover .menu-bar ul li a{
         text-align: center;
     }
@@ -273,7 +276,10 @@ Screen and (max-width: 800px){
         background-color: grey;
     }
 
-
+.menu-bar {
+    margin-top: 40px;
+    border-radius: 10px;
+    }
 .content img{
     width: 45%;
     margin: 25%;
