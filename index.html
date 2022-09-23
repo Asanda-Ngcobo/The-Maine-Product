@@ -84,7 +84,11 @@
             </div>
             
             </div>
-            
+             <div class="cookie-container">
+                <p>This website uses cookies as described in our <a href="privacy.html">Cookie Policy.</a> By clicking on the “I agree” button, or by continuing to use our website, you consent to all cookies as described in our Policy.</p>
+                <button class="cookie-btn">AGREE</button>
+                
+            </div>
     </main>
     <Footer>
         <ft>
@@ -98,5 +102,20 @@
          </ul>
         </ft>
     </Footer>
-    
+    <script>
+    const cookieContainer = document.querySelector(".cookie-container");
+    const cookieButton = document.querySelector(".cookie-btn");
+        
+        cookieButton.addEventListener("click", ()=> {
+            cookieContainer.classList.remove("active");
+            localStorage.setItem("cookieBunnerDisplayed", "true");
+        });
+        
+        setTimeout(()=> {
+            if(!localStorage.getItem("cookieBunnerDisplayed")){
+            cookieContainer.classList.add("active")
+            }
+            
+        }, 2000);
+        </script> 
 </html>
