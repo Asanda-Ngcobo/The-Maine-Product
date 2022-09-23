@@ -193,6 +193,12 @@ main h2{
         margin: 30px;
         padding: 5px;
     }
+
+   .cookie-container a{
+       
+       color:blue;
+}
+       
     .cookie-btn{
         left: 80%;
         right: 0;
