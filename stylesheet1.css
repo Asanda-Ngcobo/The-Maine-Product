@@ -42,6 +42,10 @@
             color: blue;
             background-color: white;
         }
+       
+      ol li a:hover{
+          font-size:bolder;
+            }
 
         ol li{
             font-weight: bolder;
