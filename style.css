@@ -337,7 +337,7 @@ Screen and (max-width: 800px){
     display: block;
     cursor: pointer;
     position: fixed;
-    top: 30%;
+    top: 25%;
 }
 
 .share-btn{
