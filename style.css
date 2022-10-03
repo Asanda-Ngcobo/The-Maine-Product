@@ -172,6 +172,9 @@ main h2{
         display: none;
     }  
 
+ .sharebutton{
+    display: none;
+
    .cookie-container{
         position: fixed;
         width: 50%;
@@ -333,7 +336,7 @@ Screen and (max-width: 800px){
     display: block;
     cursor: pointer;
     position: fixed;
-    top: 40%;
+    top: 35%;
 }
 
 .share-btn{
