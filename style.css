@@ -328,6 +328,31 @@ Screen and (max-width: 800px){
     display: block;
     margin-top: 20px;
 }
+    
+    .sharebutton{
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 40%;
+}
+
+.share-btn{
+    display:none;
+    
+}
+
+.sharebutton:hover .share-btn{
+    display: inline-block;
+    width: 450px;
+   
+}
+
+.share-btn button{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    
+}
 
 .content p{
     display: block;
