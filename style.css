@@ -289,9 +289,9 @@ Screen and (max-width: 800px){
 
     }
 
-    .homebar:hover .menu-bar ul li{
+    /* .homebar:hover .menu-bar ul li{
 
-        border-bottom: solid 1px white;
+        border-bottom: solid 1px white;*/
         
 
 
@@ -323,7 +323,8 @@ Screen and (max-width: 800px){
 
 .menu-bar {
     margin-top: 40px;
-    border-radius: 10px;
+    ?*border-radius: 10px;*/
+    height: 60%;
     }
 .content img{
     width: 45%;
