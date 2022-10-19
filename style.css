@@ -270,7 +270,7 @@ Screen and (max-width: 800px){
         position: fixed;
         padding: 15px;
         width: 100%;
-        position: fixed
+        
        
         
     }
@@ -292,7 +292,7 @@ button {
          position: fixed;
         top: 0;
         display:block;
-        width: 80%;
+        width: 95%;
         background: black;
         left: 0;
 
