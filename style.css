@@ -222,6 +222,7 @@ footer{
     margin-bottom: 0%;
     margin-top: 5%;
     color: white;
+    bottom: 0;
 }
 
 footer ul{
@@ -378,7 +379,8 @@ button {
         background-color: black;
         width:100%;
         height: 100%;
-        margin-bottom: 0%;
+        botton: 0;
+        position: fixed;
     }
     footer ul li{
         display:block;
