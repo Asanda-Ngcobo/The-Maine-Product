@@ -267,7 +267,7 @@ Screen and (max-width: 800px){
 
    .homebar{
         position: fixed;
-        bottom: 0;
+        top: 0;
         padding: 15px;
         width: 100%;
            
