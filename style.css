@@ -292,8 +292,9 @@ button {
          position: fixed;
         top: 0;
         display:block;
-        width: 100%;
+        width: 80%;
         background: black;
+        left: 0;
 
 
     }
