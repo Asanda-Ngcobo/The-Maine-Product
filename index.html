@@ -38,22 +38,19 @@
 </head>
     <header>
          <body>
-            <div class="homebar">
-                <ul>
-                    
-                    <li><img src="Images/icons8-menu-64.png" width="30px"></li>
-                    
-                    
-                </ul>
-       <div class="menu-bar">
+            <button class="homebar">Subjects & Past Papers</button>
+            <!--<div class="homebar"><img src="Media/icons8-menu-64.png" width="40px"></div>-->
+    
+        <div class="menu-bar hidden">
+            <p class="closebtn">&times;</p>
             <ul>
-                
+               
 
-                <li><a href="Maths.html"><img src="Images/icons8-pi-16.png">Mathematics</li></a>
+                <li><a href="Maths.html"><img src="Media/icons8-pi-16.png">Mathematics</li></a>
             
-                <li><a href="Physical Sc.html"><img src="Images/icons8-physics-64.png">Physical Sciences</a></li>
+                <li><a href="Physical Sc.html"><img src="Media/icons8-physics-64.png">Physical Sciences</a></li>
                    
-                <li><a href="Chemistry.html"><img src="Images/icons8-chemistry-64.png">Chemistry</a></li>
+                <li><a href="Chemistry.html"><img src="Media/icons8-chemistry-64.png">Chemistry</a></li>
              
                 <li>Past papers
                     <div class="sub-menu-1">
@@ -65,7 +62,6 @@
                 </li>
             </ul>
         </div>
-    </div>
     </body> 
     </header>
     <main>
@@ -73,14 +69,6 @@
 
 
         <div class=”classname”>
-            <div class="v2">
-            <h3>
-            About us
-            </h3>
-            <p>We spend hours scrapping YouTube for you, working together with educators and learners to create a libray of relevant videos with best possible and easy to understand explanations of topics covered in school curriculum based on grade and past papers.
-               Saving you time and energy so that it is easy for you to catch up if left behind.</p>
-            
-            </div>
             
             <div class="v2">
             <h3>
@@ -133,9 +121,12 @@
         </ft>
     </Footer>
     <script>
+          //selecting elements
     const cookieContainer = document.querySelector(".cookie-container");
     const cookieButton = document.querySelector(".cookie-btn");
-        
+    const menubar = document.querySelector(".menu-bar");
+    const btnCloseModal = document.querySelector(".closebtn");
+const btnsShowModal = document.querySelector('.homebar');
         cookieButton.addEventListener("click", ()=> {
             cookieContainer.classList.remove("active");
             localStorage.setItem("cookieBunnerDisplayed", "true");
@@ -147,5 +138,12 @@
             }
             
         }, 2000);
+
+        btnsShowModal.addEventListener('click', function(){
+            menubar.classList.remove('hidden');
+        });
+        btnCloseModal.addEventListener('click', function(){
+            menubar.classList.add('hidden');
+        });
         </script> 
 </html>
