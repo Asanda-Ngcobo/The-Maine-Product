@@ -266,13 +266,11 @@ Screen and (max-width: 800px){
     }
 
    .homebar{
-        bottom: 0;
         position: fixed;
+        bottom: 0;
         padding: 15px;
         width: 100%;
-        
-       
-        
+           
     }
 button {
     font-weight: bolder;
@@ -286,6 +284,7 @@ button {
         position:relative;
         font-size: 40px;
         cursor: pointer;
+        right: 10px;
     }
 
     .menu-bar{
