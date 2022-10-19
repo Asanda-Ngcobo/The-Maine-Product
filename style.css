@@ -289,7 +289,8 @@ button {
     }
 
     .menu-bar{
-        position: absolute;
+         position: fixed;
+        top: 0;
         display:block;
         width: 100%;
         background: black;
