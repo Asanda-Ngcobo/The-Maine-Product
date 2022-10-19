@@ -258,23 +258,34 @@ Screen and (max-width: 800px){
         
     }
     
-    .menu-bar{
+       .menu-bar{
         width: 100%;
         display: none;
 
       
     }
 
-    .homebar img{
-        margin-right: 0%;
-        margin-top: 5%;
-        float: right;
-        margin-right: 5%;
-        
+   .homebar{
+        bottom: 0;
+        position: absolute;
+        padding: 10px;
+        width: 100%;
+        position: fixed
+        font-weight: bolder;
         
     }
 
-    .homebar:hover .menu-bar{
+   
+
+    .menu-bar .closebtn{
+        color: white;
+        text-align: right;
+        position:relative;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .menu-bar{
         position: absolute;
         display:block;
         width: 100%;
@@ -283,29 +294,23 @@ Screen and (max-width: 800px){
 
     }
 
-    .homebar:hover .menu-bar ul{
+     .menu-bar ul{
         display:block;
 
 
     }
 
-    /* .homebar:hover .menu-bar ul li{
-
-        border-bottom: solid 1px white;*/
-        
-
-
-    }
  
-    .homebar:hover .menu-bar ul li:last-child{
+     .menu-bar ul li:last-child{
         border-bottom: none;
     }
 
-     .homebar:hover .menu-bar ul li:first-child{
-        margin-top:50px;
+    .menu-bar ul li{
+        margin-top: 50px;
     }
-    .homebar:hover .menu-bar ul li a{
-        text-align: center;
+
+    .menu-bar ul li a{
+        text-align: left;
     }
     
    
@@ -324,8 +329,8 @@ Screen and (max-width: 800px){
 .menu-bar {
     margin-top: 40px;
     /*border-radius: 10px;*/
-    height: 50%;
-    }
+    height: 100%;
+}
 .content img{
     width: 45%;
     margin: 25%;
@@ -333,12 +338,11 @@ Screen and (max-width: 800px){
     display: block;
     margin-top: 20px;
 }
-    
-    .sharebutton{
+.sharebutton{
     display: block;
     cursor: pointer;
     position: fixed;
-    top: 25%;
+    top: 40%;
 }
 
 .share-btn{
@@ -358,12 +362,6 @@ Screen and (max-width: 800px){
     border: none;
     
 }
-    
-.sharebutton p{
-    color: white;
-    
-    }
-
 .content p{
     display: block;
     text-align: center;
@@ -410,12 +408,10 @@ Screen and (max-width: 800px){
     margin: 20px;
     
     }
-     .instruction{
+    .instruction{
         display: inline;
-        list-style:none;
     }
-    
-     .cookie-container p{
+    .cookie-container p{
         color: white;
         margin: 30px;
         font-size: 10px;
@@ -429,5 +425,12 @@ Screen and (max-width: 800px){
     .cookie-btn{
         left: 60%;
     }
-}
 
+    .cookie-container.active{
+        bottom: 10%;
+    }
+
+    .hidden{
+        display: none;
+    }
+}
