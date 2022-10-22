@@ -36,113 +36,86 @@
     <link rel="stylesheet" href="style.css">
     <title>Ecolie | Mathematics, Physical Sciences, Life Sciences, etc.</title>
 </head>
-    <header>
-         <body>
-            <button class="homebar">Subjects & Past Papers</button>
-            <!--<div class="homebar"><img src="Media/icons8-menu-64.png" width="40px"></div>-->
     
-        <div class="menu-bar hidden">
-            <p class="closebtn">&times;</p>
-            <ul>
-               
+ <body>
+    <div class="home">
+    <div class="logo"><i>Ecolie</i><img src="Images/icons8-microorganism-60.png" alt=""></div>
 
-                <li><a href="Maths.html"><img src="Images/icons8-pi-16.png">Mathematics</li></a>
+</div>
+    <div class="menu">
+        <ul> 
+           
+            <li class="maths"><a href="mathematics.html">Maths</a></li>
+            <li class="physics"><a href="physics.html">Physics</a></li>
+            <!--<li class="chem"><a href="chemistry.html">Chem</a></li>-->
+            <!--<li class="biology"><a href="life sciences">Bio</a></li>-->
+            <li class="PP"><a href="past papers.html">Past papers</a></li>
             
-                <li><a href="Physical Sc.html"><img src="Images//icons8-physics-64.png">Physical Sciences</a></li>
-                   
-                <li><a href="Chemistry.html"><img src="Images//icons8-chemistry-64.png">Chemistry</a></li>
-             
-                <li>Past papers
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li class="hover-me"><a href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/2021NSCExamPapers.aspx" target="_blank">Grade 12</a></li>
-                            
-                        </ul>
-                     </div>
-                </li>
-            </ul>
+        </ul>
+    </div>
+<!-------------Grid 1-->
+    <div class="Grid-1">
+
+    
+        <h1 class="slogan">Improve your Maths and Physics grades with us.</h1>
+        <p class="statement">A library of pre-recoreded videos to help you study anytime, anywhere.</p>
+        <div class="intro">
+
         </div>
-    </body> 
-    </header>
-    <main>
-        <H2>Enhance your final Exams preparation with us!</H2>
+        <div class="backgroundimg">
+        <img src="Images/ezgif.com-gif-maker.jpg" alt="image" width="100%"></div>
 
+        <div class="layer">
+            <h3>During your free time at school</h3>
+        </div>
 
-        <div class=”classname”>
-            
-            <div class="v2">
-            <h3>
-            What do you need?
-            </h3>
-            <li>Phone, Tablet or Laptop <img src="Images/icons8-iphone-13-50.png" width="20px"></li>
-            <li>Internet connection <img src="Images/icons8-wi-fi-50.png" width="20px"></li>
-            
-            
+            <div class="backgroundimg">
+            <img src="Images/Going home.jpg" alt="image" width="100%"></div>
+        <div class="layer">
+            <h3>On your way home or school</h3>
+        </div>
+         
+            <div class="backgroundimg">
+            <img src="Images/Library.jpg" alt="image" width="100%"></div>
+            <div class="layer">
+                <h3>At the Library</h3>
             </div>
-            <div class="v2">
-            <h3>
-            Why use us?
-            </h3>
-            <p> There is a lot of not so good videos on Youtube if you want to learn, we filter those ones out for you, connecting to the best ones, saving a lot of time and frustration.</p><br>
-            
-            
-            </div>
-            
-            </div>
-          <div class="sharebutton">
-              <img src="Images/icons8-share-32.png"> <p>Share</p>
-        <div class="share-btn">
-        <button onclick="window.open('whatsapp://send?text= http://www.ecolie.co.za')"> <img src="Images/icons8-whatsapp-48.png"> 
-        <figcaption>
-            <caption>
-                Share with your classmates and friends
-            </caption>
-        </figcaption>
-        </button> 
+
     </div>
-    </div>
-             <div class="cookie-container">
-                <p>This website uses cookies as described in our <a href="privacy.html">Cookie Policy.</a> By clicking on the “I agree” button, or by continuing to use our website, you consent to all cookies as described in our Policy.</p>
-                <button class="cookie-btn">AGREE</button>
-                
-            </div>
-    </main>
-    <Footer>
-        <ft>
-         <ul>
-            <li>&copy; 2020 - 2022 The Provokative Group Pty Ltd</li>
-            <!--<li><a href=""><img src="Images/icons8-facebook-48.png" width="20px"></a></li>-->
-            <li><a href="https://www.instagram.com/ecolie_za/"><img src="Images/instagram.png" width="20px"></a></li>
-            <!--<li><a href="mailto:info@ecolie.co.za">Suggestions and Queries</a></li>-->
-            <li><a href="privacy.html">Cookie Policy</a></li>
-            <li><a href="privacypolicy.html">Privacy Policy</a></li>
-         </ul>
-        </ft>
-    </Footer>
-    <script>
-          //selecting elements
-    const cookieContainer = document.querySelector(".cookie-container");
-    const cookieButton = document.querySelector(".cookie-btn");
-    const menubar = document.querySelector(".menu-bar");
-    const btnCloseModal = document.querySelector(".closebtn");
-const btnsShowModal = document.querySelector('.homebar');
-        cookieButton.addEventListener("click", ()=> {
-            cookieContainer.classList.remove("active");
-            localStorage.setItem("cookieBunnerDisplayed", "true");
-        });
+
+    <!---cookies-->
+    <div class="cookie-container">
+        <p>This website uses cookies as described in our <a href="privacy.html">Cookie Policy.</a> By clicking on the “I agree” button, or by continuing to use our website, you consent to all cookies as described in our Policy.</p>
+        <button class="cookie-btn">AGREE</button>
         
-        setTimeout(()=> {
-            if(!localStorage.getItem("cookieBunnerDisplayed")){
-            cookieContainer.classList.add("active")
-            }
-            
-        }, 2000);
+    </div>
+<!-----footer--------->
+    <div class="footer">
 
-        btnsShowModal.addEventListener('click', function(){
-            menubar.classList.remove('hidden');
-        });
-        btnCloseModal.addEventListener('click', function(){
-            menubar.classList.add('hidden');
-        });
-        </script> 
-</html>
+       <a href="https://www.instagram.com/ecolie_za/"><img src="Images/instagram.png" alt="" width="20px"></a>
+       <a href="cookies.html"><img src="Images/icons8-cookies-100.png" alt="" width="20px"></a>
+       <a href="privacypolicy.html"><img src="Images/icons8-privacy-24.png" alt="" width="20px"></a>
+
+
+    </div>
+  
+
+    <script >
+
+const cookieContainer = document.querySelector(".cookie-container");
+const cookieButton = document.querySelector(".cookie-btn");
+
+    cookieButton.addEventListener("click", ()=> {
+        cookieContainer.classList.remove("active");
+        localStorage.setItem("cookieBunnerDisplayed", "true");
+    });
+    
+    setTimeout(()=> {
+        if(!localStorage.getItem("cookieBunnerDisplayed")){
+        cookieContainer.classList.add("active")
+        }
+        
+    }, 2000);
+    </script>
+</body>
+    </html>
