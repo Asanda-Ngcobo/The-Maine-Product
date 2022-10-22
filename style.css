@@ -1,442 +1,612 @@
 *
 {
-    margin:0;
-    padding:0;
-    background-size: cover;
-   
+
+font-size: medium;
 }
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body{
-    background-repeat: no-repeat;
-    background-image: url(Images/pexels-charlotte-may-5965884.jpg);
-    background-size: contain;  
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-
-
-
-.name{
-    font-size: larger;
-    margin-left: 0%;
-}
-.menu-bar{
-    background: black;
-    text-align: center;
-    margin-top: 0px;
-    position: fixed;
-    top:0px;
-    width: 100%;
-
-}
-
-.menu-bar ul{
-    display: inline-flex;
-    list-style: none;
-    color: white;
-
-}
-
-.menu-bar ul li{
-    /*width: 120px;*/
-    margin: 10px;
-    padding: 10px;
-    
-}
-
-.menu-bar ul li img{
-    width: 20px;
-    margin-right: 10px;
-}
-.menu-bar ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.active, .menu-bar ul li:hover{
-background-color: gray;
-border-radius: 3px;
-}
-
-.sub-menu-1 ul li img{
-    margin-left: 50px;
-    width: 15px;
-}
-
-.sub-menu-1{
-    display: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1{
-display: block;
-position: absolute;
-background-color: grey;
-margin-top: 0px;
-margin-left: -10px;
-}
-.menu-bar ul li:hover .sub-menu-1 ul{
-    display: block;
-    margin: 5px;
-}
-
-
-
-.menu-bar ul li:hover .sub-menu-1 ul li{
-    width: 150px;
-    padding: 5px;
-    border-bottom: 1px dotted white;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
-    border-bottom: none;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-   color: #b2ff00; 
-}
-
-.sub-menu-2{
-    display: none;
-}
-.hover-me:hover .sub-menu-2{
-    position:absolute;
-    display: block;
-    margin-top: -14px;
-    margin-left: 100px;
-    background-color: grey;
-}
-
-main h2{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    font-weight: 800;
-    margin-left:10% ;
-    margin-top: 65%;
-    width: 80%;
-    font-family:'Times New Roman', Times, serif;
-    
-}
-
-.content{
-    align-items: center;
-}
-    
-.content img{
-    width: 20%;
-    margin-left:100px;
-    border-radius: 10px;
-    display: inline-flex;
-    margin-top: 20px;
-}
-
-.content p{
-    display: none;
-}
-
-.classname {
-    Display: grid;
-    Grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
-    }
-    .v2{
-    Background-color: grey;
-    display: inline-block;
-    Padding: 100px;
-    Font-size:14px ;
-    Font-weight: bold;
-    Border-radius: 10px;
-    width: 20%;
-    margin: 20px;
-    
-    }
-
-    .v2 p:hover{
-        font-size: 16px;
-    }
-
-    .v2 li:hover{
-        font-size: 16px;
-    }
-.v2:first-child{
-    margin-left: 5%;
-}
-    .v2 h3{
-     color:white;
-     padding: 10px;
-    }
-   
-   .instruction{
-        display: none;
-    }  
-
- .sharebutton{
-    display: none;
-}
-
-   .cookie-container{
-        position: fixed;
-        width: 50%;
-        bottom: -100%;
-        left:30%;
-        right: 30%;
-        background: #2f3640;
-        transition: 400ms;
-        box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
-        
-    }
-
-    .cookie-container.active{
-        bottom: 5%;
-
-    }
-    .cookie-container p{
-        color: white;
-        margin: 30px;
-        padding: 5px;
-    }
-
-   .cookie-container a{
-       
-       color:blue;
-}
-       
-    .cookie-btn{
-        left: 80%;
-        right: 0;
-        margin-bottom: 5%;
-        padding: 10px;
-        position: relative;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .cookie-btn:hover{
-        text-decoration: underline;
-    }
-footer{
-    background-color: black;
-    height: 150px;
-    margin-bottom: 0%;
-    margin-top: 5%;
-    color: white;
-    bottom: 0;
-}
-
-footer ul{
-    
-    text-decoration: none;
-}
-footer ul li{
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    padding: 20px;
-}
-footer ul li a{
-    color:white;
-    text-decoration: none;
-    
+   background-color: antiquewhite;
+   height: 60%;
    
 }
-footer ul li a:hover{
-    font-weight: bolder;
-}
-
-footer ul li a img:hover{
-    width: 25px;
-}
-@media
-Screen and (max-width: 800px){
-    body{
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-        background-color: white;
-        margin-top: 3px;
-        
+    .menu{
+     left: 30%;
+     width: 100%;
     }
-    
-       .menu-bar{
-        width: 100%;
-        display: none;
 
+     .menu ul li{
+         display: inline;
+         border-radius: 40px;
+         margin: 5px;
+         text-align: center;
+         padding: 10px;
+         font-size: x-small;
+         width: 15%;
+         height: 30px;
+         cursor: pointer;
+         left: 30%;    
+     }
+     .menu ul li a{
+         font-weight: bold;
+         text-align: center;
+         text-decoration: none;
+        
+     }
+
+     .menu ul li a:hover{
+         font-weight: bolder;
+         color: beige;
+     }
+.aboutus{
+ background-color:darkseagreen;
+
+}
+
+.maths{
+ background-color: violet;
+}
+
+.physics{
+ background-color: darkslategrey;
+}
+
+.chem{
+ background-color:darkorange;
+}
+
+.biology{
+ background-color: darkgreen;
+}
+
+.PP{
+background-color: azure;
+}
+
+.logo{
+ font-family:'Times New Roman', Times, serif ;
+ border-bottom: solid 1px ghostwhite;
+ top: 15px;
+ font-size: 30px;
+ margin-left: 45%;
+ font-weight: 700;
+}
+.logo img{
+ width: 15px;
+ padding-left: 6px;
+ 
+}
+
+.statement{
+font-size: 12px;
+text-align: center;
+}
+
+.Grid-1{
+   display: grid;
+}
+.Grid-1 h1{
+text-align: center;
+}
+
+
+.backgroundimg img{
+display: inline;
+ border-radius: 10px;
+
+}
+
+.backgroundimg{
+position:relative;
+overflow: hidden;
+display: inline;
+}
+
+
+.layer h3{
+text-align: left;
+}
+.footer{
+background-color: antiquewhite;
+border-radius: 10px;
+bottom: 0;
+position: fixed;
+width: 50%;
+left: 25%;
+display: inline;
+
+
+}
+.footer img{
+padding: 10px;
+width: 15px;
+
+}
+
+.media-scroller{
+display: grid;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-x: auto;
+
+
+}
+
+.media-element img{
+width: 200px;
+height: 150px;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+.cookie-container{
+   position: fixed;
+   width: 50%;
+   bottom: -100%;
+   left:30%;
+   right: 30%;
+   background: #2f3640;
+   transition: 400ms;
+   box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+   
+}
+
+.cookie-container.active{
+   bottom: 5%;
+
+}
+.cookie-container p{
+   color: white;
+   margin: 30px;
+   padding: 5px;
+}
+.cookie-btn{
+   left: 80%;
+   right: 0;
+   margin-bottom: 5%;
+   padding: 10px;
+   position: relative;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.cookie-btn:hover{
+   text-decoration: underline;
+}
+
+
+@media screen and (max-width: 412px), 
+       screen and (max-height: 1000px) {
+   body{
+      background-color: antiquewhite;
+      height: 60%;
       
-    }
-
-   .homebar{
-        position: fixed;
-        top: 0;
-        padding: 15px;
-        width: 100%;
-           
-    }
-button {
-    font-weight: bolder;
-    font-size: 16px;
-}
-   
-
-    .menu-bar .closebtn{
-        color: white;
-        text-align: right;
-        position:relative;
-        font-size: 40px;
-        cursor: pointer;
+   }
+       .menu{
         right: 10px;
-    }
+        width: 100%;
+       }
 
-    .menu-bar{
-         position: fixed;
-        display:block;
-        width: 80%;
-        background: black;
-        left: 5%;
-        right: 15%;
+        .menu ul li{
+            display: inline;
+            border-radius: 40px;
+            margin: 5px;
+            text-align: center;
+            padding: 10px;
+            font-size: x-small;
+            width: 10%;
+            height: 30px;
+            cursor: pointer;
+            right: 0;    
+        }
+        .menu ul li a{
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+           
+        }
+
+        .menu ul li a:hover{
+            font-weight: bolder;
+            color: beige;
+        }
+ .aboutus{
+    background-color:darkseagreen;
+
+ }
+
+ .maths{
+    background-color: violet;
+ }
+
+ .physics{
+    background-color: darkslategrey;
+ }
+
+ .chem{
+    background-color:darkorange;
+ }
+
+ .biology{
+    background-color: darkgreen;
+ }
+
+.PP{
+   background-color: azure;
+}
+ 
+ .logo{
+    font-family:'Times New Roman', Times, serif ;
+    border-bottom: solid 1px ghostwhite;
+    top: 15px;
+    font-size: 30px;
+    margin-left: 45%;
+    font-weight: 700;
+ }
+ .logo img{
+    width: 15px;
+    padding-left: 6px;
+    
+ }
+
+ .statement{
+   font-size: 12px;
+   text-align: center;
+   }
+.Grid-1 h1{
+text-align: center;
+}
+
+.backgroundimg img{
+   width:100%;
+   display: block;
+    border-radius: 10px;
+}
+
+.backgroundimg{
+   position:relative;
+   overflow: hidden;
+}
 
 
-    }
-
-     .menu-bar ul{
-        display:block;
-
-
-    }
+.layer h3{
+   text-align: center;
+}
+.footer{
+  background-color: antiquewhite;
+  border-radius: 10px;
+   bottom: 0;
+   position: fixed;
+   width: 55%;
+   left: 15%;
+   display: inline;
 
  
-     .menu-bar ul li:last-child{
-        border-bottom: none;
-    }
-
-    .menu-bar ul li{
-        margin-top: 50px;
-    }
-
-    .menu-bar ul li a{
-        text-align: left;
-    }
-    
-   
-    .sub-menu-2{
-        display: none;
-    }
-    .hover-me:hover .sub-menu-2{
-        position:absolute;
-        display: block;
-        width: 100%;
-        margin-top: -14px;
-        margin-left: 100px;
-        background-color: grey;
-    }
-
-.menu-bar {
-    margin-top: 40px;
-    /*border-radius: 10px;*/
-    height: 100%;
 }
-.content img{
-    width: 45%;
-    margin: 25%;
+ .footer img{
+   padding: 7px;
+   width: 15px;
+   
+ }
+
+.media-scroller{
+   display: grid;
+   grid-auto-flow: column;
+   gap:var(--size-3);
+   overflow-x: auto;
+  
+ 
+}
+
+.media-element img{
+width: 200px;
+height: 150px;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+.cookie-container p{
+   color: white;
+   margin: 30px;
+   font-size: 10px;
+   padding: 5px;
+}
+
+.cookie-container{
+   left: 10%;
+}
+
+.cookie-btn{
+   left: 60%;
+}
+
+.cookie-container.active{
+   bottom: 10%;
+}
+ 
+}
+
+
+@media screen and (max-width: 360px), 
+       screen and (max-height: 1000px) {
+   body{
+      background-color: antiquewhite;
+      
+      
+   }
+       .menu{
+        width: 100%;
+       }
+
+        .menu ul li{
+            display: inline;
+            border-radius: 40px;
+            margin: 5px;
+            text-align: center;
+            padding: 10px;
+            font-size: x-small;
+            width: 10%;
+            height: 30px;
+            cursor: pointer;
+            right: 0;    
+        }
+        .menu ul li a{
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+           
+        }
+
+        .menu ul li a:hover{
+            font-weight: bolder;
+            color: beige;
+        }
+ .aboutus{
+    background-color:darkseagreen;
+
+ }
+
+ .maths{
+    background-color: violet;
+ }
+
+ .physics{
+    background-color: darkslategrey;
+ }
+
+ .chem{
+    background-color:darkorange;
+ }
+
+ .biology{
+    background-color: darkgreen;
+ }
+
+.PP{
+   background-color: azure;
+}
+ 
+ .logo{
+    font-family:'Times New Roman', Times, serif ;
+    border-bottom: solid 1px ghostwhite;
+    top: 15px;
+    font-size: 30px;
+    margin-left: 45%;
+    font-weight: 700;
+ }
+ .logo img{
+    width: 15px;
+    padding-left: 6px;
+    
+ }
+
+ .statement{
+   font-size: 12px;
+   text-align: center;
+   }
+.Grid-1 h1{
+text-align: center;
+}
+
+.backgroundimg img{
+   width:100%;
+   display: block;
     border-radius: 10px;
-    display: block;
-    margin-top: 20px;
-}
-.sharebutton{
-    display: block;
-    cursor: pointer;
-    position: fixed;
-    top: 40%;
 }
 
-.share-btn{
-    display:none;
+.backgroundimg{
+   position:relative;
+   overflow: hidden;
+}
+
+
+.layer h3{
+   text-align: center;
+}
+.footer{
+  background-color: antiquewhite;
+  border-radius: 10px;
+   bottom: 0;
+   position: fixed;
+   width: 40%;
+   display: inline;
+   left: 30%;
+
+ 
+}
+ .footer img{
+   padding: 5px;
+   width: 11px;
+   margin-left: 10px;
+   
+ }
+
+.media-scroller{
+   display: grid;
+   grid-auto-flow: column;
+   gap:var(--size-3);
+   overflow-x: auto;
+  
+ 
+}
+
+.media-element img{
+width: 200px;
+height: 150px;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+
+ 
+}
+
+
+/*@media screen and (max-width: 850px)
+       {
+   body{
+      background-color: antiquewhite;
+      height: 60%;
+      
+   }
+       .menu{
+        right: 10px;
+        width: 100%;
+       }
+
+        .menu ul li{
+            display: inline;
+            border-radius: 40px;
+            margin: 5px;
+            text-align: center;
+            padding: 10px;
+            font-size: x-small;
+            width: 15%;
+            height: 30px;
+            cursor: pointer;
+            left: 30%;    
+        }
+        .menu ul li a{
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+           
+        }
+
+        .menu ul li a:hover{
+            font-weight: bolder;
+            color: beige;
+        }
+ .aboutus{
+    background-color:darkseagreen;
+
+ }
+
+ .maths{
+    background-color: violet;
+ }
+
+ .physics{
+    background-color: darkslategrey;
+ }
+
+ .chem{
+    background-color:darkorange;
+ }
+
+ .biology{
+    background-color: darkgreen;
+ }
+
+.PP{
+   background-color: azure;
+}
+ 
+ .logo{
+    font-family:'Times New Roman', Times, serif ;
+    border-bottom: solid 1px ghostwhite;
+    top: 15px;
+    font-size: 30px;
+    margin-left: 45%;
+    font-weight: 700;
+ }
+ .logo img{
+    width: 15px;
+    padding-left: 6px;
     
+ }
+
+ .statement{
+   font-size: 12px;
+   text-align: center;
+   }
+.Grid-1 h1{
+text-align: center;
 }
 
-.sharebutton:hover .share-btn{
-    display: inline-block;
-    width: 450px;
+.Grid-1 {
+   bottom: 50px;
+}
+.backgroundimg img{
+   display: inline;
+    border-radius: 10px;
    
 }
 
-.share-btn button{
-    padding: 10px;
-    width: 300px;
-    border: none;
-    
-}
-.content p{
-    display: block;
-    text-align: center;
-}
-    footer{
-        width: 100%;
-    }
-     
-    footer{
-        background-color: black;
-        width:100%;
-        height: 100%;
-        botton: 0;
-        
-    }
-    footer ul li{
-        display:block;
-        text-decoration: none;
-        list-style: none;
-        padding: 10px;
-        text-align: center;
-    }
-
-    main h2{
-        text-align: center;
-        color: black;
-        font-size: 16px;
-        font-weight: 800;
-        margin-left:0% ;
-        padding-right: 10%;
-        margin-top: 75%;
-        width: 100%;
-        font-family:'Times New Roman', Times, serif;
-        
+.backgroundimg{
+   position:relative;
+   overflow: hidden;
+   display: inline;
 }
 
-.v2{
-    Background-color: grey;
-    display: block;
-    Padding: 40px;
-    Font-size:14px ;
-    Font-weight: bold;
-    Border-radius: 10px;
-    width: 70%;
-    margin: 20px;
-    
-    }
-    .instruction{
-        display: inline;
-    }
-    .cookie-container p{
-        color: white;
-        margin: 30px;
-        font-size: 10px;
-        padding: 5px;
-    }
 
-    .cookie-container{
-        left: 10%;
-    }
-
-    .cookie-btn{
-        left: 60%;
-    }
-
-    .cookie-container.active{
-        bottom: 10%;
-    }
-
-    .hidden{
-        display: none;
-    }
+.layer h3{
+   text-align: center;
 }
+
+.layer p{
+   text-align: center;
+}
+.footer{
+  background-color: antiquewhite;
+  border-radius: 10px;
+   bottom: 0;
+   position: fixed;
+   width: 50%;
+   left: 25%;
+   display: inline;
+
+ 
+}
+ .footer img{
+   padding: 10px;
+   width: 15px;
+   left: 20px;
+   
+ }
+
+.media-scroller{
+   display: grid;
+   grid-auto-flow: column;
+   gap:var(--size-3);
+   overflow-x: auto;
+  
+ 
+}
+
+.media-element img{
+width: 200px;
+height: 150px;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+
+ 
+}
+
