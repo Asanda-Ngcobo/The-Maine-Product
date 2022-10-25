@@ -3,9 +3,6 @@
 
 font-size: medium;
 }
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-
 body{
    background-color: antiquewhite;
    height: 60%;
@@ -83,17 +80,20 @@ font-size: 12px;
 text-align: center;
 }
 
-.Grid-1{
-   display: grid;
-}
+/*.Grid-1{
+   display: inline-block;
+   grid-template-rows: 1fr 1fr;
+}*/
 .Grid-1 h1{
 text-align: center;
 }
 
 
 .backgroundimg img{
-display: inline;
+float: left;
  border-radius: 10px;
+ width: 200px;
+
 
 }
 
@@ -112,14 +112,14 @@ background-color: antiquewhite;
 border-radius: 10px;
 bottom: 0;
 position: fixed;
-width: 50%;
-left: 25%;
+width: 55%;
+left: 30%;
 display: inline;
 
 
 }
-.footer img{
-padding: 10px;
+.footer a{
+padding: 30px;
 width: 15px;
 
 }
