@@ -1,4 +1,4 @@
-*
+/*
 {
 
 font-size: medium;
@@ -175,7 +175,7 @@ padding: 10px;
 .cookie-btn:hover{
    text-decoration: underline;
 }
-
+*/
 
 @media screen and (max-width: 412px), 
        screen and (max-height: 1000px) {
