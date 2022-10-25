@@ -80,10 +80,10 @@ font-size: 12px;
 text-align: center;
 }
 
-/*.Grid-1{
+.Grid-1{
    display: inline-block;
    grid-template-rows: 1fr 1fr;
-}*/
+}
 .Grid-1 h1{
 text-align: center;
 }
