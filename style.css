@@ -466,7 +466,7 @@ padding: 10px;
 }
 
 
-/*@media screen and (max-width: 850px)
+@media screen and (min-width: 413px) and (max-width: 850px)
        {
    body{
       background-color: antiquewhite;
@@ -485,10 +485,10 @@ padding: 10px;
             text-align: center;
             padding: 10px;
             font-size: x-small;
-            width: 15%;
+            width: 10%;
             height: 30px;
             cursor: pointer;
-            left: 30%;    
+            right: 0;    
         }
         .menu ul li a{
             font-weight: bold;
@@ -548,27 +548,19 @@ padding: 10px;
 text-align: center;
 }
 
-.Grid-1 {
-   bottom: 50px;
-}
 .backgroundimg img{
-   display: inline;
+   width:100%;
+   display: block;
     border-radius: 10px;
-   
 }
 
 .backgroundimg{
    position:relative;
    overflow: hidden;
-   display: inline;
 }
 
 
 .layer h3{
-   text-align: center;
-}
-
-.layer p{
    text-align: center;
 }
 .footer{
@@ -576,16 +568,15 @@ text-align: center;
   border-radius: 10px;
    bottom: 0;
    position: fixed;
-   width: 50%;
-   left: 25%;
+   width: 55%;
+   left: 15%;
    display: inline;
 
  
 }
  .footer img{
-   padding: 10px;
+   padding: 7px;
    width: 15px;
-   left: 20px;
    
  }
 
@@ -606,7 +597,23 @@ padding: 10px;
 
 }
 
-
- 
+.cookie-container p{
+   color: white;
+   margin: 30px;
+   font-size: 10px;
+   padding: 5px;
 }
 
+.cookie-container{
+   left: 10%;
+}
+
+.cookie-btn{
+   left: 60%;
+}
+
+.cookie-container.active{
+   bottom: 10%;
+}
+ 
+}
