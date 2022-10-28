@@ -332,6 +332,7 @@ padding: 10px;
    bottom: -100%;
    left:15%;
    right: 15%;
+   border-radius: 10px;
    background: #2f3640;
    transition: 400ms;
    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
