@@ -326,7 +326,53 @@ padding: 10px;
 .cookie-container.active{
    bottom: 10%;
 }
- 
+ .share-container{
+   position: fixed;
+   width: 70%;
+   bottom: -100%;
+   left:15%;
+   right: 15%;
+   background: #2f3640;
+   transition: 400ms;
+   box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+   
+}
+
+.share-container.high{
+   bottom: 5%;
+
+}
+.share-container p{
+   color: white;
+   margin: 30px;
+   font-size: 10px;
+   padding: 5px;
+}
+
+.share-container{
+   left: 10%;
+}
+
+.share-btn{
+   margin-left: 60%;
+   margin-bottom: 10%;
+   
+}
+
+.share-btn a{
+
+text-decoration: none;
+}
+
+.share-container.high{
+   bottom: 10%;
+}
+
+.closebtn{
+   color: white;
+   margin-left: 95%;
+   margin-top: 2%;
+}
 }
 
 
@@ -616,4 +662,51 @@ padding: 10px;
    bottom: 10%;
 }
  
+          .share-container{
+   position: fixed;
+   width: 70%;
+   bottom: -100%;
+   left:15%;
+   right: 15%;
+   background: #2f3640;
+   transition: 400ms;
+   box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+   
+}
+
+.share-container.high{
+   bottom: 5%;
+
+}
+.share-container p{
+   color: white;
+   margin: 30px;
+   font-size: 10px;
+   padding: 5px;
+}
+
+.share-container{
+   left: 10%;
+}
+
+.share-btn{
+   margin-left: 60%;
+   margin-bottom: 10%;
+   
+}
+
+.share-btn a{
+
+text-decoration: none;
+}
+
+.share-container.high{
+   bottom: 10%;
+}
+
+.closebtn{
+   color: white;
+   margin-left: 95%;
+   margin-top: 2%;
+}
 }
