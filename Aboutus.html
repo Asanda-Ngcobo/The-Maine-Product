@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HZ3PLN5FZP"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-HZ3PLN5FZP');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VTPBB2Q2F"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-2VTPBB2Q2F');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-238019491-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-238019491-1');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="Images/icons8-microorganism-60.png"/>
+    <link rel="stylesheet" href="style.css">
+    <title>About us</title>
+</head>
+<body>
+    <div class="home">
+        <div class="logo">
+            <i>Ecolie</i> <img src="Images/icons8-microorganism-60.png" alt="" width="25px"></div>
+
+   <div class="ourmission">
+   <h1>Our Mission</h1>
+   <p>We believe <span>'Knowledge is advantage'.</span> Therefore everyone should be able to acquire it, regardless of their financial background, age, gender, etc. And we created ecolie.co.za to enable that and allow people to learn at their own pace, anytime, anywhere.</p>
+
+   </div>
+   
+   <div class="founder">
+    <img src="Images/Me.jpg" alt="" width="">
+    <p>Meet our Founder, <a href="https://www.instagram.com/_asanda_t/">@insta: _asanda_t</a>     </p>
+   </div>
+
+  <!---- <div class="additionalinfo">
+    <div class="bus">
+    <img src="Images/Going home.png" alt="" width="">
+    <p>Visit us when going to or coming back from school or work by listening to the lessons instead of watching.</p>
+</div>
+
+<div class="home">
+    <img src="Images/at home.jpg" alt="" width="">
+    <p>You can Visit us when you home.</p>
+</div>
+
+<div class="anywhere">
+    <img src="Images/pexels-charlotte-may-5965884.jpg" alt="" width="">
+    <p>You can learn with us anywhere.</p>
+</div>-->
+</div>
+            <Footer>
+        <ft>
+         <ul>
+            <li>&copy; 2020 - 2023 The Provokative Group Pty Ltd</li>
+            <li><a href=""><img src="Images/icons8-facebook-48.png" width="20px" alt=""></a></li>
+            <li><a href="https://www.instagram.com/ecolie_za/"><img src="Images/instagram.png" width="20px" alt=""></a></li>
+            <li><a href="mailto:info@ecolie.co.za">Suggestions and Queries</a></li>
+            <li><a href="privacy.html">Cookie Policy</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+         </ul>
+        </ft>
+    </Footer>
+</body>
+
+<div class="share-container">
+    <h3 class="closebtn">&times;</h3>
+    <p>Click the share button below to invite your friends, studymates and/or classmates to the site via Whatsapp.</p>
+    <button class="share-btn"><a href="whatsapp://send?text=http://www.ecolie.co.za"       data-action="share/whatsapp/share"  
+        target="_blank"> Share </a></button>
+    
+</div>
+<script>
+     const shareContainer = document.querySelector(".share-container");
+    const shareButton = document.querySelector(".share-btn");
+    const btnCloseModal = document.querySelector(".closebtn");
+        shareButton.addEventListener("click", ()=> {
+            shareContainer.classList.remove("high");
+            localStorage.setItem("shareBunnerDisplayed", "true");
+        });
+        
+        setTimeout(()=> {
+            if(!localStorage.getItem("shareBunnerDisplayed")){
+            shareContainer.classList.add("high")
+            }
+            
+        }, 2000);
+    
+       
+       btnCloseModal.addEventListener('click', ()=> {
+        shareContainer.classList.remove('high');
+       });
+
+      
+</script>
+</html>
