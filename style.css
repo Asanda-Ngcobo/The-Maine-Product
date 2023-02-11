@@ -66,14 +66,17 @@
         display: inline-grid;
         margin: 20px;
         justify-content: center;
-       }
+        align-items: center;
+     
+    }
+       
 
     .subjects{
         /*border: 1px solid black;*/
         border-radius: 10px;
         width: 25%;
         height: 60%;
-        margin-left: 100px;
+        margin-left: 200px;
         margin-top: 30px;
         cursor: pointer;
        
@@ -682,86 +685,114 @@ footer ul li a img:hover{
        .logo img{
         width: 15px;
         padding-left: 6px;
+       } 
+       
+   
+    .logo{
+        font-family: Arial;
+        top: 0;
+        font-size: 80px;
+        margin-left: 20%;
+        font-weight: 700;
+        
+    
+       }
+       .logo img{
+        width: 15px;
+        padding-left: 6px;
+        display: none;
         
        }
-    .aboutus{
-        padding: 5px;
-        border-radius: 10px;
-
+    .logo ul{
+        display: inline-block;
     }
-  .aboutus:hover{
-    width: 55px;
-  }
-    .aboutus a{
+
+    .logo ul li{
+        list-style: none;
+    }
+
+    .logo ul li {
         text-decoration: none;
+        color: gray;
+        font-size: 14px;
+    }
+
+    .logo ul li:hover{
+        background-color: gray;
         color: black;
-        font-weight: 600;
+        padding: 10px;
+        text-decoration: underline;
+        border-radius: 5px;
+
     }
-       .aboutus{
-        text-decoration: none;
-       }
 
-       .ourmission h1{
-   
-     margin-left: 40%;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
+    .sub-menu-1{
+        display: none;
+    }
 
-       .ourmission p{
-        text-align: justify;
-        padding: 15px;
-       }
-
-       .founder img{
-        border-radius: 10px;
-        margin: 15px;
-        width: 50%;
-        margin-left: 30%;
-       }
-     
-       .founder a{
-        text-decoration: none;
-       }
-
-       .founder p{
-        margin-left: 20%;
-       }
-       .ourmission p span{
-        font-weight: bold;
-       } 
-       .additionalinfo{
-        margin: 15px;
-       }
-       .additionalinfo img{
-        border-radius: 10px;
-        margin: 15px;
-       }
-
-       .additionalinfo p{
-        margin-left: 10%;
-        text-align: center;
-       }
-       .motto h1{
-        text-align: center;
-        font-size: larger;
-        font-family:'Courier New', Courier, monospace;
-       }
     
+.logo ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: -15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+    }
+    .logo ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 5px;
+        height: 100%;
+    }
+    
+    
+    
+    .logo ul li:hover .sub-menu-1 ul li{
+        width: 80%;
+        padding: 10px;
+        color: black;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+        font-size: 8px;
+        text-decoration: none;
+        cursor: pointer;
+       
+        
+    }
+    .motto h1{
+        text-align: center;
+        font-size: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        padding: 10px;
+       }
        .motto{
         display: flex;
        }
 
        .motto img{
-        margin-right: 7%;
-        transition: 1000ms;
+        margin-right: 18%;
+        border-radius: 10px;
        }
+    
        .motto p{
-        font-size: 10px;
-        margin-top: 20px;
-        width: 60px;
-        padding-right: 5px;
+        font-size: 12px;
+       
 
        }
+ .subs{
+    color: orangered;
+    font-size: 10px;
+ }
+
+ .test{
+    color: green;
+    font-size: 10px;
+ }
 
        .valueproposition p{
         font-size: 7;
@@ -1359,75 +1390,97 @@ footer ul li a img:hover{
         padding-left: 6px;
         
        }
-       .aboutus{
-        padding: 5px;
-        border-radius: 10px;
-
-    }
-  .aboutus:hover{
-    width: 55px;
-  }
-    .aboutus a{
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
-    }
-       .aboutus{
-        text-decoration: none;
-       }
-
-       .ourmission h1{
+      
    
-     margin-left: 40%;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-
-       .ourmission p{
-        text-align: justify;
-        padding: 15px;
-       }
-
-       .founder img{
-        border-radius: 10px;
-        margin: 15px;
-        width: 50%;
-        margin-left: 30%;
-       }
-     
-       .founder a{
-        text-decoration: none;
-       }
-
-       .founder p{
+    .logo{
+        font-family: Arial;
+        top: 0;
+        font-size: 80px;
         margin-left: 20%;
+        font-weight: 700;
+        
+    
        }
-       .ourmission p span{
-        font-weight: bold;
-       } 
-       .additionalinfo{
-        margin: 15px;
+       .logo img{
+        width: 15px;
+        padding-left: 6px;
+        display: none;
+        
        }
-       .additionalinfo img{
-        border-radius: 10px;
-        margin: 15px;
-       }
+    .logo ul{
+        display: inline-block;
+    }
 
-       .additionalinfo p{
-        margin-left: 10%;
-        text-align: center;
-       }
-       .motto h1{
-        text-align: center;
-        font-size: larger;
-        font-family:'Courier New', Courier, monospace;
-       }
+    .logo ul li{
+        list-style: none;
+    }
 
+    .logo ul li {
+        text-decoration: none;
+        color: gray;
+        font-size: 14px;
+    }
+
+    .logo ul li:hover{
+        background-color: gray;
+        color: black;
+        padding: 10px;
+        text-decoration: underline;
+        border-radius: 5px;
+
+    }
+
+    .sub-menu-1{
+        display: none;
+    }
+
+    
+.logo ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+    }
+    .logo ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 5px;
+        height: 100%;
+    }
+    
+    
+    
+    .logo ul li:hover .sub-menu-1 ul li{
+        width: 280px;
+        padding: 10px;
+        color: black;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+        font-size: 8px;
+        text-decoration: none;
+        cursor: pointer;
+       
+        
+    }
+    .motto h1{
+        text-align: center;
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        padding: 10px;
+       }
        .motto{
         display: flex;
        }
 
        .motto img{
-        margin-right: 7%;
+        margin-right: 18%;
+        border-radius: 10px;
        }
     
        .motto p{
@@ -1435,6 +1488,16 @@ footer ul li a img:hover{
         margin-top: 150px;
 
        }
+ .subs{
+    color: orangered;
+    font-size: 15px;
+ }
+
+ .test{
+    color: green;
+    font-size: 15px;
+ }
+       
         h2{
             color: white;
         }
@@ -2005,11 +2068,13 @@ font-size: 16px;
         width: 100%;
         margin-bottom: 50px;
     }
+
+   
     .logo{
-        font-family:'Times New Roman', Times, serif ;
+        font-family: Arial;
         top: 0;
         font-size: 80px;
-        margin-left: 50%;
+        margin-left: 20%;
         font-weight: 700;
         
     
@@ -2020,12 +2085,72 @@ font-size: 16px;
         display: none;
         
        }
+    .logo ul{
+        display: inline-block;
+    }
+
+    .logo ul li{
+        list-style: none;
+    }
+
+    .logo ul li {
+        text-decoration: none;
+        color: gray;
+        font-size: 14px;
+    }
+
+    .logo ul li:hover{
+        background-color: gray;
+        color: black;
+        padding: 10px;
+        text-decoration: underline;
+        border-radius: 5px;
+
+    }
+
+    .sub-menu-1{
+        display: none;
+    }
+
     
+.logo ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+    }
+    .logo ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 5px;
+        height: 100%;
+    }
+    
+    
+    
+    .logo ul li:hover .sub-menu-1 ul li{
+        width: 400px;
+        padding: 10px;
+        color: black;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+        font-size: 8px;
+        text-decoration: none;
+        cursor: pointer;
+       
+        
+    }
        .motto h1{
         text-align: center;
-        font-size: 60px;
-        font-family:'Courier New', Courier, monospace;
-        margin-top: 80px;
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        padding: 10px;
        }
        .motto{
         display: flex;
@@ -2041,7 +2166,15 @@ font-size: 16px;
         margin-top: 150px;
 
        }
+ .subs{
+    color: orangered;
+    font-size: 15px;
+ }
 
+ .test{
+    color: green;
+    font-size: 15px;
+ }
        .aboutus{
         padding: 5px;
         border-radius: 10px;
