@@ -840,8 +840,8 @@ footer ul li a img:hover{
     
         .subjects:hover{
             
-            border: 0.05rem solid black;
-            background-color: whitesmoke;
+            border: 0.05rem solid white;
+            background-color: black;
         }
     
         .subjects h3{
