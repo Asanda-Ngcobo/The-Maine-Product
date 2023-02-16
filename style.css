@@ -793,7 +793,11 @@ footer ul li a img:hover{
     color: green;
     font-size: 10px;
  }
-
+ .phones{
+    display: flex;
+  
+   margin-left: 25%;
+ }
        .valueproposition p{
         font-size: 7;
         display: none;
@@ -1497,7 +1501,11 @@ footer ul li a img:hover{
     color: green;
     font-size: 15px;
  }
-       
+ .phones{
+    display: flex;
+  
+   margin-left: 25%;
+ } 
         h2{
             color: white;
         }
@@ -1534,6 +1542,9 @@ footer ul li a img:hover{
             background-color: whitesmoke;
         }
     
+        .subjects:last-child{
+            margin-left: 30%;
+        }
         .subjects h3{
        border-radius: 10px;
        margin: 2%;
@@ -2061,14 +2072,17 @@ font-size: 16px;
 @media Screen and (min-width: 769px) {
     Body{
         width: 100%;
+       
     }
     
     .home{
-        height: 20%;
+        height: 15%;
         width: 100%;
         margin-bottom: 50px;
+       
     }
 
+  
    
     .logo{
         font-family: Arial;
@@ -2203,6 +2217,12 @@ font-size: 16px;
         padding: 15px;
        }
 
+     .phones{
+        display: flex;
+      
+       margin-left: 25%;
+     }
+
        .founder img{
         border-radius: 10px;
         margin: 15px;
@@ -2280,7 +2300,9 @@ margin-left: 0;
             border: 0.05rem solid black;
             background-color: whitesmoke;
         }
-    
+        .subjects:last-child{
+            margin-left: 30%;
+        }
         .subjects h3{
        border-radius: 10px;
        margin: 2%;
