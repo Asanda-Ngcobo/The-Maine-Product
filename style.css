@@ -308,7 +308,7 @@ header ul li a:hover .mission{
 }
 
  h1{
-    font-size: 16px;
+    font-size: 12px;
 
  }
     body .h1{
@@ -357,12 +357,12 @@ header ul li a:hover .mission{
 
 .item img {
     margin-right: 5px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
 }
 
-h3{
+.item h3{
     font-size: 12px;
 }
 
