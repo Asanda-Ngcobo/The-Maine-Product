@@ -134,6 +134,27 @@ footer ul li a img:hover{
     width: 25px;
 }
 
+.exitpopup{
+    background-color: black;
+  
+    width: 100%;
+    height: 20%;
+    
+
+}
+
+.exitpopup video{
+    width: 100%;
+    height: 20%;
+}
+
+.exitpopup h1{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
 .cookie-container{
     position: fixed;
     width: 100%;
@@ -315,6 +336,27 @@ footer ul li a:hover{
 footer ul li a img:hover{
     width: 25px;
 }
+    
+    .exitpopup{
+    background-color: black;
+  
+    width: 100%;
+    height: 20%;
+    
+
+}
+
+.exitpopup video{
+    width: 100%;
+    height: 20%;
+}
+
+.exitpopup h1{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
 
 .cookie-container{
     position: fixed;
@@ -328,6 +370,7 @@ footer ul li a img:hover{
     box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
     
 }
+    
 
 .cookie-container.active{
     bottom: 0;
