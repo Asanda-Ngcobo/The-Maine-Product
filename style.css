@@ -20,19 +20,21 @@
 
 }
 
-.tabs{
-    font-family: 'Montserrat', sans-serif ;
-    font-size: 14px;
-    margin-left: 0%;
-    background-color: aquamarine;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.tabs:hover{
-    background-color: azure;
-}
+  .menu-bar li a{
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 1px;
+        margin-left: 0%;
+       
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+    .menu-bar li a:hover{
+        text-decoration: underline aqua;
+    }
 .description{
     background-color: whitesmoke;
     height: 100px;
