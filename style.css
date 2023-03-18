@@ -22,7 +22,7 @@
 
   .menu-bar li a{
         font-family: 'Montserrat', sans-serif ;
-        font-size: 1px;
+        font-size: 14px;
         margin-left: 0%;
        
         border: none;
@@ -221,18 +221,20 @@ font-size: 16px;
     
     }
     
-    .tabs{
+      .menu-bar li a{
         font-family: 'Montserrat', sans-serif ;
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 0%;
-        background-color: aquamarine;
+       
         border: none;
         padding: 10px;
         border-radius: 5px;
         cursor: pointer;
+        text-decoration: none;
+        color: black;
     }
-    .tabs:hover{
-        background-color: azure;
+    .menu-bar li a:hover{
+        text-decoration: underline aqua;
     }
     .description{
         background-color: whitesmoke;
