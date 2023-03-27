@@ -62,7 +62,13 @@ body{
     margin-left: 0;
     padding: 5px;
 }
+.description p{
+    background-color: whitesmoke;
+}
 
+.description h2{
+    background-color: whitesmoke;
+}
 h2{
     font-family: 'Montserrat', sans-serif;
 }
