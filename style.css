@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap');
 
+*{
+    background-color: white;
+}
 .logo{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
