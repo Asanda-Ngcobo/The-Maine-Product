@@ -4719,6 +4719,7 @@ border-radius: 10px;
         
 
 .share-container{
+    display: none;
    position: fixed;
    width: 70%;
    bottom: -100%;
