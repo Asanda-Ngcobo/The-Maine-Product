@@ -357,9 +357,9 @@ font-size: 16px;
     
     .links{
         
-        width: 100%;
+        width: 90%;
         height: auto;
-        margin: 20px 20px 0px 0px;
+        margin: 20px 20px 20px 20px;
         display: block;
         border: 0.01rem solid grey;
         border-radius: 5px;
@@ -399,7 +399,9 @@ font-size: 16px;
         text-align: left;
     }
 
-    
+      .ourmission{
+        margin-top: 30%;
+    }
    footer{
     background-color: whitesmoke;
     height: auto;
