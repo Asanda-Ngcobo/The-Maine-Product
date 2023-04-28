@@ -128,7 +128,7 @@ gtag('config', 'UA-238019491-1');
    <button class="answer1">Check</button>
    
    <p class="label-score">Chances: <span class="chances">3</span></p>
-   <p class="message">You get three chances per question.
+   <p class="message">You get three chances per question.  Put the smaller value of x first.
     </p>
 
    <button class="next notes">Next</button>
@@ -147,7 +147,7 @@ gtag('config', 'UA-238019491-1');
            
            <p class="label-score2">Chances: <span class="chances2">3</span></p>
            <p class="message2">You get three chances per question.
-             Your first answer should always be for the x inside the paranthesis and second answer should be for x outside paranthesis. Please put both answers before clicking check</p>
+             Put the smaller value of x first. Please put both answers before clicking check</p>
         
            <button class="next2 notes">Next</button>
         </div>
@@ -165,7 +165,7 @@ gtag('config', 'UA-238019491-1');
            
            <p class="label-score3">Chances: <span class="chances3">3</span></p>
            <p class="message3">You get three chances per question.
-             Your first answer should always be for the x inside the paranthesis and second answer should be for x outside paranthesis. Please put both answers before clicking check</p>
+            Put the smaller value of x first. Please put both answers before clicking check</p>
         
            <button class="next3 notes">Finish</button>
         </div>
@@ -230,7 +230,7 @@ gtag('config', 'UA-238019491-1');
    
    <p class="label-score4">Chances: <span class="chances4">3</span></p>
    <p class="message4">You get three chances per question.
-     Your first answer should always be for the x with the positive square root, second answer should be for x from the negative sqaure root and correct to TWO decimal places.
+    Put the smaller value of x first and correct to TWO decimal places.
       Please put both answers before clicking check</p>
 
    <button class="next4 notes">Next</button>
@@ -249,7 +249,7 @@ gtag('config', 'UA-238019491-1');
            
            <p class="label-score5">Chances: <span class="chances5">3</span></p>
            <p class="message5">You get three chances per question.
-             Your first answer should always be for the x with the positive square root, second answer should be for x from the negative sqaure root and correct to TWO decimal places.
+            Put the smaller value of x first. and correct to TWO decimal places.
               Please put both answers before clicking check</p>
         
            <button class="next5 notes">Next</button>
@@ -268,13 +268,12 @@ gtag('config', 'UA-238019491-1');
                    
                    <p class="label-score6">Chances: <span class="chances6">3</span></p>
                    <p class="message6">You get three chances per question.
-                     Your first answer should always be for the x with the positive square root, second answer should be for x from the negative sqaure root and correct to TWO decimal places.
+                    Put the smaller value of x first and correct to TWO decimal places.
                       Please put both answers before clicking check</p>
                 
                    <button class="next6 notes">Finish</button>
                 </div>
 
-          
         <div class="video">
            
             <iframe width="560" height="315" src="https://www.youtube.com/embed/J7MjMM_mi4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -387,8 +386,8 @@ gtag('config', 'UA-238019491-1');
     //input answer
   
     //what is the right answer
-    let answer1 =  '0';
-    let answer2 = '-0.5';
+    let answer1 =  '-0.5';
+    let answer2 = '0';
     //let chances
     let chances = 3;
     //test button
@@ -415,12 +414,12 @@ gtag('config', 'UA-238019491-1');
 
 else if (input1  !== answer1 || input2  !== answer2){
     if (chances > 1){
-            displayMessage('Your answer is incorrect, unfortunately. Please try again. remember to put a positive or negative sign in front of your answer.');
+            displayMessage('Your answer is incorrect, unfortunately. Please try again. Remember, negative numbers are smaller than positive numbers.');
             chances--;
             document.querySelector('.chances').textContent = chances;
     }
     else{
-        displayMessage('The correct answer is 0 and -0.5');
+        displayMessage('The correct answer is -0.5 and 0');
         document.querySelector('.chances').textContent = 0;
         document.querySelector('.chances').style.backgroundColor = 'red';
         question1.style.backgroundColor = 'red';
@@ -454,8 +453,8 @@ else if (input1  !== answer1 || input2  !== answer2){
     //input answer
   
     //what is the right answer
-    let answer3 = '4';
-    let answer4 = '2';
+    let answer3 = '2';
+    let answer4 = '4';
     //let chances
     let chances2 = 3;
     //test button
@@ -483,12 +482,12 @@ else if (input1  !== answer1 || input2  !== answer2){
 
 else if (input3  !== answer3 || input4  !== answer4){
     if (chances2 > 1){
-            displayMessage2('Your answer is incorrect, unfortunately. Please try again. Remember to put a positive or negative sign in front of your answer.');
+            displayMessage2('Your answer is incorrect, unfortunately. Please try again.');
             chances2--;
             document.querySelector('.chances2').textContent = chances2;
     }
     else{
-        displayMessage2('The correct answers are 4 and 2');
+        displayMessage2('The correct answers are 2 and 4');
         document.querySelector('.chances2').textContent = 0;
         document.querySelector('.chances2').style.backgroundColor = 'red';
         question2.style.backgroundColor = 'red';
@@ -551,12 +550,12 @@ else if (input3  !== answer3 || input4  !== answer4){
 
 else if (input5  !== answer5 || input6  !== answer6){
     if (chances3 > 1){
-            displayMessage3('Your answer is incorrect, unfortunately. Please try again. Remember to put a positive or negative sign in front of your answer.');
+            displayMessage3('Your answer is incorrect, unfortunately. Please try again. Remember, negative numbers are smaller than positive numbers.');
             chances3--;
             document.querySelector('.chances3').textContent = chances3;
     }
     else{
-        displayMessage3('The correct answers are -4 and +3');
+        displayMessage3('The correct answers are -4 and 3');
         document.querySelector('.chances3').textContent = 0;
         document.querySelector('.chances3').style.backgroundColor = 'red';
         question3.style.backgroundColor = 'red';
@@ -595,8 +594,8 @@ else if (input5  !== answer5 || input6  !== answer6){
     doNotShow.addEventListener('click',()=>{
         completingasquareNotes.classList.add('notes')
     });
-     //Question 4
-     //Quadratic formula 1
+    
+  //Quadratic formula 1
      const displayMessage4 = function (message) {
   document.querySelector('.message4').textContent = message;
 };
@@ -611,8 +610,8 @@ test2.addEventListener('click', ()=>{
     //input answer
   
     //what is the right answer
-    let answer7 = '0.91';
-    let answer8 = '-1.31';
+    let answer7 = '-1.31';
+    let answer8 = '0.91';
     //let chances
     let chances4 = 3;
     //test button
@@ -638,12 +637,12 @@ test2.addEventListener('click', ()=>{
 
 else if (input7  !== answer7 || input8  !== answer8){
     if (chances4 > 1){
-            displayMessage4('Your answer is incorrect, unfortunately. Please try again. Remember to put a positive or negative sign in front of your answer.');
+            displayMessage4('Your answer is incorrect, unfortunately. Please try again. Remember, negative numbers are smaller than positive numbers.');
             chances4--;
             document.querySelector('.chances4').textContent = chances4;
     }
     else{
-        displayMessage4('The correct answers are +0.91 and -1.31');
+        displayMessage4('The correct answers are -1.31 and 0.91');
         document.querySelector('.chances4').textContent = 0;
         document.querySelector('.chances4').style.backgroundColor = 'red';
         question4.style.backgroundColor = 'red';
@@ -682,8 +681,8 @@ else if (input7  !== answer7 || input8  !== answer8){
     //input answer
   
     //what is the right answer
-    let answer9 = '1.85';
-    let answer10 = '-0.18';
+    let answer9 =  '-0.18';
+    let answer10 = '1.85';
     //let chances
     let chances5 = 3;
     //test button
@@ -709,12 +708,12 @@ else if (input7  !== answer7 || input8  !== answer8){
 
 else if (input9  !== answer9 || input10  !== answer10){
     if (chances5 > 1){
-            displayMessage5('Your answer is incorrect, unfortunately. Please try again. Remember to put a positive or negative sign in front of your answer.');
+            displayMessage5('Your answer is incorrect, unfortunately. Please try again. Remember, negative numbers are smaller than positive numbers.');
             chances5--;
             document.querySelector('.chances5').textContent = chances5;
     }
     else{
-        displayMessage5('The correct answers are +1.85 and -0.18');
+        displayMessage5('The correct answers are -0.18 and 1.85');
         document.querySelector('.chances5').textContent = 0;
         document.querySelector('.chances5').style.backgroundColor = 'red';
         question5.style.backgroundColor = 'red';
@@ -752,8 +751,8 @@ else if (input9  !== answer9 || input10  !== answer10){
     //input answer
   
     //what is the right answer
-    const answer11 = '2.19';
-    const answer12 = '-0.69';
+    const answer11 =  '-0.69';
+    const answer12 = '2.19';
     //let chances
     let chances6 = 3;
     //test button
@@ -779,12 +778,12 @@ else if (input9  !== answer9 || input10  !== answer10){
 
 else if (input11  !== answer11 || input12 !== answer12){
     if (chances6 > 1){
-            displayMessage6('Your answer is incorrect, unfortunately. Please try again. Remember to put a positive or negative sign in front of your answer.');
+            displayMessage6('Your answer is incorrect, unfortunately. Please try again. Remember, negative numbers are smaller than positive numbers.');
             chances6--;
             document.querySelector('.chances6').textContent = chances6;
     }
     else{
-        displayMessage6('The correct answers are +2.19 and -0.69');
+        displayMessage6('The correct answers are -0.69 and 2.19');
         document.querySelector('.chances6').textContent = 0;
         document.querySelector('.chances6').style.backgroundColor = 'red';
         question6.style.backgroundColor = 'red';
@@ -808,9 +807,8 @@ else if (input11  !== answer11 || input12 !== answer12){
         question6.classList.add('notes')
     });
 
-
-         //Question 4
-     //Quadratic formula 1
+         //Question 7
+     //logarithm formula 1
      const displayMessage7 = function (message) {
   document.querySelector('.message7').textContent = message;
 };
