@@ -226,6 +226,13 @@ footer ul li a img:hover{
     padding-bottom: 20px;
     font-size: 12px;
    }
+ .adbunner{
+    width: 80%;
+    margin-left: 15%;
+  }
+  .adbunner p{
+    font-size: 20px;
+  }
 .cookie-container{
     position: fixed;
     width: 100%;
@@ -401,6 +408,11 @@ font-size: 16px;
       .ourmission{
         margin-top: 30%;
     }
+    .adbunner{
+        width: 100%;
+        margin-left: 0;
+        
+      }
          .adbunner p{
     font-size: 10px;
   }
