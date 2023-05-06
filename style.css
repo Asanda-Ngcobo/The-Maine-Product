@@ -225,8 +225,6 @@ footer ul li a img:hover{
     font-family:'Montserrat'; 
     padding-bottom: 20px;
     font-size: 12px;
-
-     
    }
 .cookie-container{
     position: fixed;
@@ -403,6 +401,9 @@ font-size: 16px;
       .ourmission{
         margin-top: 30%;
     }
+         .adbunner p{
+    font-size: 10px;
+  }
    footer{
     background-color: whitesmoke;
     height: auto;
