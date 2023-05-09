@@ -8745,6 +8745,7 @@ margin-left: 10%;
 
 
 .share-container{
+    display: block;
      position: fixed;
     width: 100%;
     height: 35%;
