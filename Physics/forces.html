@@ -759,12 +759,11 @@ optionA.addEventListener('click', ()=>{
 optionC.addEventListener('click', ()=>{
  
     displayMessage('Sorry, your selection is incorrect. The correct answer is B. ');
-    document.querySelector('.chances1').textContent = 0;
+    document.querySelector('.chances').textContent = 0;
         question1.style.backgroundColor = 'red';
         document.querySelector('.chances').style.backgroundColor = 'red';
         document.querySelector('.question1').style.backgroundColor = 'red'; 
         document.querySelector('#options').style.backgroundColor = 'red';
-             
              document.querySelector('.label-score1').style.backgroundColor = 'red';
              document.querySelector('.message').style.backgroundColor = 'red';
         document.querySelector('.next').classList.remove('notes');
