@@ -33,6 +33,21 @@ gtag('config', 'UA-238019491-1');
     <link rel="stylesheet" href="pages1.css">
     <title>Introduction to Chemistry</title>
 </head>
+      <div class='interactivept'>
+    <p>Introducing our interactive periodic table, created to enhance teaching and learning chemistry.
+    <p><span class="clickhere"> Click here</span> to watch how to use our interactive periodic table effectively.</p>
+    </div>
+    <div class="displayvideo notes">
+        <div class="backhome">&times;</div>
+       <h1>Introducing our Interactive Periodic Table</h1>
+       <p>You can click any of the first 20 elements and get important information about it, such as:
+        atomic number and mass, state at Room temperature and pressure, electronegativity, electron Configuration and real-life use.
+       </p>
+       <h2>Viewing on mobile</h2>
+        <video src="/Video/huge.mp4"   loop autoplay muted  width="100%" height="60%"></video>
+       
+      
+    </div>
 <body>
     <div class="home">
         <div class="logo">
@@ -2100,13 +2115,26 @@ To find how many electrons each orbit can hold, use this equation: </p><br>
             shareContainer.classList.add("high")
             }
             
-        }, 2000);
+        }, 20000);
     
        
        btnCloseModal.addEventListener('click', ()=> {
         shareContainer.classList.remove('high');
        });
+      
+    // interactive Periodic table
 
+    const clickHere = document.querySelector('.clickhere');
+     const out = document.querySelector('.backhome');
+     const displayvideo = document.querySelector('.displayvideo');
+
+     clickHere.addEventListener('click', ()=>{
+     displayvideo.classList.remove('notes');
+     });
+
+     out.addEventListener('click', ()=>{
+        displayvideo.classList.add('notes');
+     });
        // Periodic table
 
     const ptableBtn = document.querySelector('.periodictable-btn');
