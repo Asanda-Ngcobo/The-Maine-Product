@@ -2093,6 +2093,15 @@ border-radius: 20px;
 font-size: 20px;
 margin-left: 20px;
 }
+.answer1{
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
 .chances{
 background-color: black;
 color: white;
@@ -2142,6 +2151,15 @@ border-radius: 20px;
 font-size: 20px;
 margin-left: 20px;
 }
+.answer2{
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
 .chances2{
 background-color: black;
 color: white;
@@ -2190,6 +2208,15 @@ border-radius: 20px;
 .number3{
 font-size: 20px;
 margin-left: 20px;
+}
+.answer3{
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
 }
 .chances3{
 background-color: black;
@@ -2242,6 +2269,16 @@ margin: 10px;
 height: 10%;
 width: 50%;
 border-radius: 20px;
+}
+
+.answer4{
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
 }
 .number4{
 font-size: 20px;
@@ -2559,6 +2596,15 @@ border-radius: 20px;
 font-size: 20px;
 margin-left: 20px;
 }
+.answer5{
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
 .chances5{
 background-color: black;
 color: white;
@@ -2659,6 +2705,16 @@ margin: 10px;
 height: 10%;
 width: 50%;
 border-radius: 20px;
+}
+
+.answer7{
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
 }
 .number7{
 font-size: 20px;
