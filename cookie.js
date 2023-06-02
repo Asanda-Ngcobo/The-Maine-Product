@@ -16,4 +16,19 @@
     cookieContainer.classList.add("active")
         }
     }, 4000);
+
+const video = document.querySelector('.introvideo');
+const getout = document.querySelector('.getout');
+const watchVideo = document.querySelector('.watch');
+
+watchVideo.addEventListener('click', () => {
+  video.classList.remove('notes');
+ 
+});
+
+getout.addEventListener('click', () => {
+  video.classList.add('notes');
+
+
+});
    
