@@ -35,7 +35,8 @@ getout.addEventListener('click', () => {
 // Check if the visitor's country matches the allowed country
 function checkCountry() {
   // Replace 'XX' with the country code you want to allow
-  const allowedCountry = 'ZA';
+  const allowedCountry1 = 'ZA';
+    const allowedCountry2 = 'CA';
   
   // Make an API call to get the visitor's country
   fetch('https://api.ipgeolocationapi.com/geolocate')
@@ -46,7 +47,7 @@ function checkCountry() {
       const visitorCountry = data.country_code2;
       
       // Redirect if the visitor's country doesn't match the allowed country
-      if (visitorCountry !== allowedCountry) {
+      if (visitorCountry !== allowedCountry1 || visitorCountry !== allowedCountry2) {
         window.location.href = 'https://ecolie.co.za/restricted.html'; // Replace with your restricted page URL
       }
     })
