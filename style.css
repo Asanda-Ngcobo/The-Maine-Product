@@ -34,6 +34,7 @@ body{
     margin-left: 0%;
     padding: 10px;
     display: flex;
+    background-color: white;
 }
 
 .menu-bar li{
@@ -65,15 +66,45 @@ body{
     width: 100%;
     margin-left: 0;
     margin-top: 5%;
+    height: 50%;
     
   }
-  .adbunner ul{
-list-style: none;
-  }
-
-  .adbunner ul li{
-    display: inline-block;
+  .adbunner video{
+    opacity: 80%;
+    
       }
+    
+      .adbunner p{
+    padding: 10px;
+      }
+    
+          .adbunner .message{
+            width: 35%;
+            font-size: 12px;
+            position: absolute;
+            padding-bottom: 20px;
+            top: 8%;
+            color: white;
+         
+        font-family:  'Montserrat', sans-serif;
+        background: transparent;
+        margin-left: 30%;
+        text-align: center;
+        font-weight: 600;
+            
+    
+            
+          }
+    
+       
+    
+    
+    
+    .adbunner p span{
+        color: aqua;
+        font-weight: 900;
+        background: transparent;
+    }
 
       .adbunner .message{
         width: 40%;
@@ -86,11 +117,6 @@ list-style: none;
         
       }
 
-  
-.adbunner img{
-   float: right;
-    
-}
 
 
 
@@ -214,10 +240,12 @@ footer ul li{
     text-decoration: none;
     list-style: none;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif ;
 }
 footer ul li a{
     color: black;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif ;
     
    
 }
@@ -227,44 +255,6 @@ footer ul li a:hover{
 
 footer ul li a img:hover{
     width: 25px;
-}
-
-.exitpopup{
-  
-    width: 100%;
-    height: 20%;
-    
-
-}
-
-.exitpopup video{
-    width: 100%;
-    height: 100hv;
-}
-
-.exitpopup h1{
-    margin-left: 10px;
-    color: white;
-    font-family: 'Montserrat';
-    font-size: 12px;
-}
-
-.exit{
-    margin-left: 98%;
-    color: white;
-    font-size: 16px;
-    display: none;
-}
-
-.exitresponse{
-    position: fixed;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    top: 10%;
-    width: 50%;
-   
-    height: 300px;
-    left: 10%;
 }
 
 /*-------About Us----------*/
@@ -301,7 +291,7 @@ footer ul li a img:hover{
 .cookie-container{
     position: fixed;
     width: 100%;
-    height: 25%;
+    height: 15%;
     bottom: -100%;
     left:0;
     right: 0;
@@ -321,7 +311,6 @@ footer ul li a img:hover{
     margin: 10px;
     padding: 5px;
     font-size: 16px;
-     background: whitesmoke;
 }
 
 .cookie-container p a{
@@ -408,36 +397,45 @@ font-size: 16px;
     width: 100%;
     margin-left: 0%;
     margin-top: 15%;
-    height: auto;
+  
+   
     
   }
-  .adbunner ul{
-list-style: none;
+  .adbunner video{
+opacity: 80%;
+
   }
 
-  .adbunner ul li{
-    display: inline-block;
-      }
+  .adbunner p{
+padding: 10px;
+  }
 
       .adbunner .message{
         width: 35%;
         font-size: 12px;
         position: absolute;
+        padding-bottom: 20px;
+        top: 8%;
+        color: white;
+     
     font-family:  'Montserrat', sans-serif;
-    text-align:left;
+    background: transparent;
+    margin-left: 30%;
+    text-align: center;
+    font-weight: 700;
         
 
         
       }
-.adbunner img{
-   float: right;
-    
-}
+
+   
 
 
 
 .adbunner p span{
-    font-weight: 700;
+    color: aqua;
+    font-weight: 900;
+    background: transparent;
 }
 
 .adbunner button{
@@ -514,7 +512,7 @@ list-style: none;
     .covered h5{
         font-family: 'Montserrat', sans-serif;
         text-align: left;
-           text-decoration: underline aqua !important;
+        text-decoration: underline aqua !important ;
     }
     
     .covered button{
@@ -553,6 +551,7 @@ list-style: none;
         margin-top: 5%;
         color: black;
         text-align: center;
+        
     }
     
     footer ul{
@@ -561,7 +560,7 @@ list-style: none;
     }
     footer ul li{
         display: block;
-        font-size: 12px;
+        font-size: 8px;
         text-decoration: none;
         list-style: none;
         padding-bottom: 20px;
@@ -570,6 +569,7 @@ list-style: none;
     footer ul li a{
         color: black;
         text-decoration: none;
+        font-size: 8px;
         
        
     }
