@@ -99,7 +99,7 @@ display: block;
     margin-bottom: 10px;
     margin-left: 40%;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: aqua;
     padding: 10px;
     width: 20%;
     border: none;
@@ -114,7 +114,7 @@ display: block;
     border-radius: 20px;
 }
  .trig a{
-    background-color: orangered;
+    background-color: aqua;
     text-decoration: none;
     color: white;
  }
@@ -134,7 +134,7 @@ display: block;
     margin-bottom: 10px;
     margin-left: 40%;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: aqua;
     padding: 10px;
     width: 20%;
     border: none;
@@ -149,7 +149,7 @@ display: block;
     border-radius: 20px;
 }
  .geometry a{
-    background-color: orangered;
+    background-color: aqua;
     text-decoration: none;
     color: white;
  }
@@ -167,7 +167,7 @@ display: block;
     margin-bottom: 10px;
     margin-left: 40%;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: aqua;
     padding: 10px;
     width: 20%;
     border: none;
@@ -191,7 +191,8 @@ display: block;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -208,7 +209,8 @@ display: block;
 }
 /*Free bodies notes */
 .freebodiesnotes{
-background-color: gray;
+    background-color: black;
+    color: white;
 color: white;
 border-radius: 10px;
 padding: 10px;
@@ -218,8 +220,8 @@ margin-left: 10%;
 }
 /* X for removing the notes modal*/
 .out{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
 margin-left: 97%;
 }
 /*property needed for javascript calling*/
@@ -234,7 +236,8 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -251,7 +254,8 @@ border-radius: 20px;
 }
 /* work notes*/
 .worknotes {
-background-color: gray;
+    background-color: black;
+    color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -260,7 +264,8 @@ margin-left: 10%;
 }
 
 .worknotes ol li{
-background-color: gray;
+    background-color: black;
+    color: white;
 border: none;
 padding: 10px;
 }
@@ -270,11 +275,12 @@ padding: 10px;
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 .remove{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
 margin-left: 97%;
 font-size: 20px;
 margin-top: 0px;
@@ -287,12 +293,12 @@ display: none;
 /*calculatingwork button*/    
 .calculatingwork{
 text-decoration: none;
-color: white;
 margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -309,7 +315,8 @@ border-radius: 20px;
 }
 /* calculatingwork notes*/
 .calculatingworknotes {
-background-color: gray;
+    background-color: black;
+    color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -318,7 +325,8 @@ margin-left: 10%;
 }
 
 .calculatingworknotes ol li{
-background-color: gray;
+    background-color: black;
+    color: white;
 border: none;
 padding: 10px;
 }
@@ -328,11 +336,12 @@ padding: 10px;
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 .hide{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
 margin-left: 97%;
 font-size: 20px;
 margin-top: 0px;
@@ -370,12 +379,12 @@ border-radius: 20px;
 /*-------Vectors-------*/
 .notes1-btn{
 text-decoration: none;
-color: white;
 margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 5%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -393,12 +402,12 @@ border-radius: 20px;
 
 .notes2-btn{
 text-decoration: none;
-color: white;
 margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 5%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -431,12 +440,12 @@ cursor: pointer;
 
 .notes3-btn{
     text-decoration: none;
-    color: white;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 0%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -454,12 +463,12 @@ cursor: pointer;
 
     .notes4-btn{
         text-decoration: none;
-        color: white;
         margin-top: 10%;
         margin-bottom: 10%;
         margin-left: 0%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -477,12 +486,12 @@ cursor: pointer;
 
         .notes5-btn{
             text-decoration: none;
-            color: white;
             margin-top: 10%;
             margin-bottom: 10%;
             margin-left: 0%;
             border-radius: 20px;
-            background-color: gray;
+            background-color: black;
+            color: white;
             padding: 10px;
             width: 60%;
             border: none;
@@ -500,12 +509,12 @@ cursor: pointer;
 
             .notes6-btn{
                 text-decoration: none;
-                color: white;
                 margin-top: 10%;
                 margin-bottom: 10%;
                 margin-left: 0%;
                 border-radius: 20px;
-                background-color: gray;
+                background-color: black;
+                color: white;
                 padding: 10px;
                 width: 60%;
                 border: none;
@@ -548,7 +557,8 @@ border-radius: 20px;
 .notes1{
 height: 80%;
 width: 60%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -560,16 +570,19 @@ overflow-y: auto;
 }
 .notes1 h1 {
     
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes1  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes1 ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
@@ -579,20 +592,24 @@ overflow-y: auto;
 }
 .notes1 table{
     width: 100%;
-    background-color: grey;
+    background-color: black;
+    color: white;
 }
 .notes1 table td{
     text-align: center;
+    color: black;
 }
 .notes1 sup{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 8px;
    
 }
 
 .notes1 sub{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 8px;
   
@@ -600,14 +617,16 @@ overflow-y: auto;
 }
 
 .notes1 span{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 15px;
   
    
 }
 .donotdisplay{
-background-color: gray;
+    background-color: black;
+    color: white;
 color: white;
 margin-left: 97%;
 font-size: 25px;
@@ -620,7 +639,8 @@ cursor: pointer;
 .notes2{
 height: 80%;
 width: 60%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -632,30 +652,35 @@ overflow-y: auto;
 }
 .notes2 h1 {
     
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes2  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes2 ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
 
 .notes2 sup{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 8px;
    
 }
 
 .notes2 sub{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 8px;
   
@@ -663,14 +688,16 @@ overflow-y: auto;
 }
 
 .notes2 span{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 15px;
   
    
 }
 .donotdisplay2{
-background-color: gray;
+    background-color: black;
+    color: white;
 color: white;
 margin-left: 97%;
 font-size: 25px;
@@ -683,7 +710,8 @@ cursor: pointer;
 .notes3{
     height: auto;
     width: 60%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
@@ -696,30 +724,35 @@ cursor: pointer;
     }
     .notes3 h1 {
         
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes3  ol {
         
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes3 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
     
     
     .notes3 sup{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
        
     }
     
     .notes3 sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
       
@@ -727,7 +760,8 @@ cursor: pointer;
     }
     
     .notes3 span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 12px;
         font-weight: bold;
@@ -735,7 +769,8 @@ cursor: pointer;
        
     }
     .donotdisplay3{
-    background-color: gray;
+        background-color: black;
+        color: white;
     color: white;
     margin-left: 97%;
     font-size: 25px;
@@ -750,7 +785,8 @@ cursor: pointer;
 .notes4{
     height: auto;
     width: 60%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
@@ -763,30 +799,35 @@ cursor: pointer;
     }
     .notes4 h1 {
         
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes4  ol {
         
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes4 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
     
     
     .notes4 sup{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
        
     }
     
     .notes4 sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
       
@@ -794,7 +835,8 @@ cursor: pointer;
     }
     
     .notes4 span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 12px;
         font-weight: bold;
@@ -802,7 +844,8 @@ cursor: pointer;
        
     }
     .donotdisplay4{
-    background-color: gray;
+        background-color: black;
+        color: white;
     color: white;
     margin-left: 97%;
     font-size: 25px;
@@ -816,7 +859,8 @@ cursor: pointer;
 .notes5{
     height: auto;
     width: 60%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
@@ -829,30 +873,35 @@ cursor: pointer;
     }
     .notes5 h1 {
         
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes5  ol {
         
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes5 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
     
     
     .notes5 sup{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
        
     }
     
     .notes5 sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
       
@@ -860,7 +909,8 @@ cursor: pointer;
     }
     
     .notes5 span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 12px;
         font-weight: bold;
@@ -868,7 +918,8 @@ cursor: pointer;
        
     }
     .donotdisplay5{
-    background-color: gray;
+        background-color: black;
+        color: white;
     color: white;
     margin-left: 97%;
     font-size: 25px;
@@ -882,7 +933,8 @@ cursor: pointer;
 .notes6{
     height: auto;
     width: 60%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
@@ -895,30 +947,35 @@ cursor: pointer;
     }
     .notes6 h1 {
         
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes6  ol {
         
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes6 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
     
     
     .notes6 sup{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
        
     }
     
     .notes6 sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
       
@@ -926,7 +983,8 @@ cursor: pointer;
     }
     
     .notes6 span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 12px;
         font-weight: bold;
@@ -934,7 +992,7 @@ cursor: pointer;
        
     }
     .donotdisplay6{
-    background-color: gray;
+    background-color: black;
     color: white;
     margin-left: 97%;
     font-size: 25px;
@@ -975,8 +1033,8 @@ background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
-top: 5%;
-width: 80%;
+top: 0%;
+width: 90%;
 margin-left: 1%;
 
 
@@ -985,7 +1043,7 @@ margin-left: 1%;
 .solveforxfact1 p{
     background-color: black;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     margin: 10px;
 }
 
@@ -1058,7 +1116,7 @@ cursor: pointer;
 
 /*solve for x 2*/
 .solveforxfact2{
-height: auto;
+height: 80%;
 background-color: black;
 border-radius: 10px;
 padding: 10px;
@@ -1097,7 +1155,7 @@ margin-left: 1%;
     text-decoration: none;
     color: white;
     margin-top: 1%;
-    margin-bottom: 1%;
+
     margin-left: 15%;
     border-radius: 20px;
     color: black;
@@ -1146,8 +1204,8 @@ background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
-top: 10%;
-width: 80%;
+top: 0%;
+width: 90%;
 margin-left: 1%;
 
 }
@@ -1225,7 +1283,7 @@ border-radius: 10px;
 padding: 10px;
 position: fixed;
 top: 0%;
-width: 80%;
+width: 90%;
 margin-left: 1%;
 
 }
@@ -1309,8 +1367,8 @@ background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
-top: 10%;
-width: 80%;
+top: 0%;
+width: 90%;
 margin-left: 1%;
 
 }
@@ -1956,7 +2014,8 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -1974,8 +2033,9 @@ border-radius: 20px;
 /*Impulse and momentum   notes*/
 .impulsenotes {
 height: 60%;
-width: 30%;
-background-color: gray;
+width: 60%;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -1987,20 +2047,38 @@ overflow-y: auto;
 }
 
 .impulsenotes  ol li{
-background-color: gray;
-border: none;
-padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.impulsenotes  p{
+    background-color: black;
+    color: white;
+
 }
 
 
+.impulsenotes  sup{
+    background-color: black;
+    color: white;
+
+}
+
+.impulsenotes  sub{
+    background-color: black;
+    color: white;
+
+}
 .impulsenotes  ol {
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 .hide{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -2015,12 +2093,12 @@ display: none;
 /*conservation of momentum notes*/
 .momconservation-btn{
 text-decoration: none;
-color: white;
 margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -2038,8 +2116,9 @@ border-radius: 20px;
 /*Impulse and momentum   notes*/
 .momentumnotes{
 height: 60%;
-width: 30%;
-background-color: gray;
+width: 60%;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -2051,7 +2130,8 @@ overflow-y: auto;
 }
 
 .momentumnotes ol li{
-background-color: gray;
+    background-color: black;
+    color: white;
 border: none;
 padding: 10px;
 }
@@ -2061,10 +2141,29 @@ padding: 10px;
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
+
+.momentumnotes  h1 {
+    background-color: black;
+    color: white;
+    }
+.momentumnotes  p {
+    background-color: black;
+    color: white;
+    }
+
+    .momentumnotes  sup {
+        background-color: black;
+        color: white;
+        }
+ .momentumnotes  sub {
+        background-color: black;
+        color: white;
+        }
 .donotshow{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -2084,7 +2183,8 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -2101,9 +2201,10 @@ border-radius: 20px;
 }
 /*Collison   notes*/
 .collisionnotes{
-height: 60%;
-width: 30%;
-background-color: gray;
+height: 70%;
+width: 60%;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -2115,20 +2216,42 @@ overflow-y: auto;
 }
 
 .collisionnotes ol li{
-background-color: gray;
+    background-color: black;
+    color: white;
 border: none;
 padding: 10px;
 }
 
+.collisionnotes ol li p{
+    background-color: black;
+    color: white;
 
+}
+
+.collisionnotes sup{
+    background-color: black;
+    color: white;
+}
+
+.collisionnotes sub{
+    background-color: black;
+    color: white;
+}
+
+.collisionnotes p{
+    background-color: black;
+    color: white;
+}
 .collisionnotes  ol {
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 .donotdisplay{
-background-color: gray;
+    background-color: black;
+    color: white;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -2859,7 +2982,8 @@ margin-left: 10%;
         margin-bottom: 10%;
         margin-left: 2%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -2876,7 +3000,8 @@ margin-left: 10%;
     }
     .wavesnotespad {
         height: 70%;
-        background-color: gray;
+        background-color: black;
+        color: white;
         border-radius: 10px;
         width: 30%;
         padding: 10px;
@@ -2889,17 +3014,17 @@ margin-left: 10%;
         }
 
         .wavesnotespad p{
-            background-color: gray;
+            background-color: black;
             color: white;
         }
 
         sup{
-            background-color: gray;
+            background-color: black;
             color: white;
         }
 
         figcaption caption{
-            background-color: gray;
+            background-color: black;
             color: white;
         }
 
@@ -3226,8 +3351,9 @@ text-decoration: none;
 color: white;
 margin-top: 10%; 
 margin-left: 4%;
-border-radius: 20px;
-background-color: gray;
+border-radius: 20px;    
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -3246,7 +3372,7 @@ color: white;
 margin-top: 10%; 
 margin-left: 18%;
 border-radius: 20px;
-background-color: orangered;
+background-color: aqua;
 padding: 10px;
 width: 60%;
 border: none;
@@ -3254,7 +3380,7 @@ cursor: pointer;
 }  
 
 .chemistrylink a{
-background-color: orangered;
+background-color: aqua;
 text-decoration: none;
 font-weight: bold;
 text-align: center;
@@ -3264,7 +3390,8 @@ margin: 15px;
 /*----charge notes---*/
 .chargenotes{
 height: 70%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 width: 30%;
 padding: 10px;
@@ -3277,20 +3404,20 @@ overflow-y: auto;
 }
 
 .chargenotes h1{
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
     margin: 10px;
 }
 
 .chargenotes p{
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
     margin: 10px;
 }
 
 sup{
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
 
 }
 /*--second coulumbs button*/
@@ -3300,7 +3427,8 @@ color: white;
 margin-top: 10%; 
 margin-left: 4%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
+color: white;
 padding: 10px;
 width: 60%;
 border: none;
@@ -3316,7 +3444,8 @@ border-radius: 20px;
 
 .chargenotes1{
 height: 70%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 width: 30%;
 padding: 10px;
@@ -3329,14 +3458,20 @@ overflow-y: auto;
 }
 
 .chargenotes1 h1{
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.chargenotes1 sup{
+    background-color: black;
+    color: white;
     margin: 10px;
 }
 
 .chargenotes1 p{
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
     margin: 10px;
 }
 
@@ -3545,7 +3680,8 @@ overflow-y: auto;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+      color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -3561,9 +3697,10 @@ overflow-y: auto;
 
    .electricalpotentialnotes{
     height: 70%;
-    background-color: gray;
+    background-color: black;
+      color: white;
     border-radius: 10px;
-    width: 30%;
+    width: 60%;
     padding: 10px;
     position: fixed;
     top: 10%;
@@ -3574,27 +3711,40 @@ overflow-y: auto;
     }
 
     .electricalpotentialnotes h1{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     .electricalpotentialnotes p{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
    }
    .electricalpotentialnotes ul{
-    background-color: gray;
+    background-color: black;
+      color: white;
     margin-left: 10px;
    } 
    .electricalpotentialnotes ul li{
-    background-color: gray;
+    background-color: black;
+      color: white;
     margin-left: 10px;
    } 
    .electricalpotentialnotes sub{
-      background-color: gray;
+    background-color: black;
+      color: white;
    }  
+
+   .electricalpotentialnotes sup{
+    background-color: black;
+      color: white;
+   }
+
+   .electricalpotentialnotes span{
+    background-color: black;
+      color: white;
+   } 
    /*voltage note buttom*/
    .voltage-btn{
     text-decoration: none;
@@ -3602,7 +3752,8 @@ overflow-y: auto;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+      color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -3618,9 +3769,10 @@ overflow-y: auto;
  /*Voltage notes*/
    .voltage{
     height: 70%;
-    background-color: gray;
+    background-color: black;
+      color: white;
     border-radius: 10px;
-    width: 30%;
+    width: 60%;
     padding: 10px;
     position: fixed;
     top: 10%;
@@ -3631,27 +3783,35 @@ overflow-y: auto;
     }
 
     .voltage h1{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     .voltage p{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
    }
    .voltage ul{
-    background-color: gray;
+    background-color: black;
+      color: white;
     margin-left: 10px;
    } 
    .voltage ul li{
-    background-color: gray;
+    background-color: black;
+      color: white;
     margin-left: 10px;
    } 
    .voltage sub{
-      background-color: gray;
+      background-color: black;
+      color: white;
    }  
+
+   .voltage sup{
+    background-color: black;
+    color: white;
+ }  
 
    .voltagetest{
     width: 60%;
@@ -3759,7 +3919,7 @@ overflow-y: auto;
 
 
 .morevoltage a{
-    background-color: orangered;
+    background-color: aqua;
     text-decoration: none;
     padding: 5px;
     color: white;
@@ -3777,7 +3937,8 @@ overflow-y: auto;
      /*More Voltage notes*/
      .morevoltage{
         height: 70%;
-        background-color: gray;
+        background-color: black;
+        color: white;
         border-radius: 10px;
         width: 30%;
         padding: 10px;
@@ -3790,14 +3951,14 @@ overflow-y: auto;
         }
     
         .morevoltage h1{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
     
         .morevoltage p{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
        }
    /*more voltage test 1*/
@@ -3882,7 +4043,8 @@ overflow-y: auto;
        margin-top: 10%; 
         margin-left: 4%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -3899,7 +4061,8 @@ overflow-y: auto;
         /*current notes*/
    .current{
     height: 70%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     width: 30%;
     padding: 10px;
@@ -3912,31 +4075,32 @@ overflow-y: auto;
     }
 
     .current h1{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     .current p{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
    }
 
    .display-none{
-    background-color: gray;
+    background-color: black;
     color: white;
     margin-left: 97%;
     cursor: pointer;
    }
    /*ohmslaw btn*/
    .ohmslaw-btn{
-    text-decoration: none;
+    background-color: black;
     color: white;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -3953,7 +4117,8 @@ overflow-y: auto;
          /*ohmslaw notes*/
          .ohmslaw{
             height: 70%;
-            background-color: gray;
+            background-color: black;
+            color: white;
             border-radius: 10px;
             width: 30%;
             padding: 10px;
@@ -3966,14 +4131,14 @@ overflow-y: auto;
             }
         
             .ohmslaw h1{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
             }
         
             .ohmslaw p{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
            }
 
@@ -3982,16 +4147,18 @@ overflow-y: auto;
             margin: 10px;
        }
     .ohmslaw ul li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         color: black;
     }
 
     .ohmslaw span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         font-weight: 700;
     }
            .hide{
-            background-color: gray;
+            background-color: black;
             color: white;
             margin-left: 97%;
             cursor: pointer;
@@ -4063,7 +4230,8 @@ overflow-y: auto;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -4080,7 +4248,8 @@ overflow-y: auto;
          /*circuits notes*/
          .circuits{
             height: 70%;
-            background-color: gray;
+            background-color: black;
+            color: white;
             border-radius: 10px;
             width: 30%;
             padding: 10px;
@@ -4093,14 +4262,14 @@ overflow-y: auto;
             }
         
             .circuits h1{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
             }
         
             .circuits p{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
            }
 
@@ -4109,21 +4278,31 @@ overflow-y: auto;
             margin: 10px;
        }
     .circuits ul li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         color: black;
     }
 
     .circuits span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         font-weight: 700;
     }
 
     .circuits sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         font-weight: 700;
     }
+
+    .circuits sup{
+        background-color: black;
+        color: white;
+        font-weight: 700;
+    }
+     
            .unhide{
-            background-color: gray;
+            background-color: black;
             color: white;
             margin-left: 97%;
             cursor: pointer;
@@ -4132,7 +4311,7 @@ overflow-y: auto;
           /*circuitstest button*/
 .circuitstest{
     width: 60%;
-    background-color: green;
+    background-color: aqua;
     margin: 10%;
     padding: 10px;
     border-radius: 20px;
@@ -4371,7 +4550,8 @@ border-radius: 10px;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -4388,7 +4568,8 @@ border-radius: 10px;
          /*power notes*/
          .power{
             height: 70%;
-            background-color: gray;
+            background-color: black;
+            color: white;
             border-radius: 10px;
             width: 30%;
             padding: 10px;
@@ -4401,14 +4582,14 @@ border-radius: 10px;
             }
         
             .power h1{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
             }
         
             .power p{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
            }
 
@@ -4417,21 +4598,29 @@ border-radius: 10px;
             margin: 10px;
        }
     .power ul li{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
     }
 
     .power span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         font-weight: 700;
     }
 
     .power sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
+        font-weight: 700;
+    }
+
+    .power sup{
+        background-color: black;
+        color: white;
         font-weight: 700;
     }
            .show{
-            background-color: gray;
+            background-color: black;
             color: white;
             margin-left: 97%;
             cursor: pointer;
@@ -4832,6 +5021,7 @@ border-radius: 10px;
    transition: 4000ms;
    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
    border-radius: 10px;
+   display: none;
    
 }
 
@@ -4974,7 +5164,7 @@ footer ul li a img:hover{
     margin-bottom: 10px;
     margin-left: 40%;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: aqua;
     padding: 10px;
     width: 20%;
     border: none;
@@ -4989,7 +5179,7 @@ footer ul li a img:hover{
     border-radius: 20px;
 }
  .trig a{
-    background-color: orangered;
+    background-color: aqua;
     text-decoration: none;
     color: white;
  }
@@ -5007,7 +5197,7 @@ footer ul li a img:hover{
     margin-bottom: 10px;
     margin-left: 40%;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: aqua;
     padding: 10px;
     width: 20%;
     border: none;
@@ -5022,7 +5212,7 @@ footer ul li a img:hover{
     border-radius: 20px;
 }
  .geometry a{
-    background-color: orangered;
+    background-color: aqua;
     text-decoration: none;
     color: white;
  }
@@ -5039,9 +5229,10 @@ footer ul li a img:hover{
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
-    width: 60%;
+    width: 80%;
     border: none;
     cursor: pointer;
 }
@@ -5056,8 +5247,8 @@ footer ul li a img:hover{
 }
 
 .freebodiesnotes{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -5066,8 +5257,8 @@ margin-left: 10%;
 }
 
 .out{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
 margin-left: 97%;
 font-size: 20px;
 cursor: pointer;
@@ -5086,7 +5277,8 @@ display: none;
     margin-bottom: 1%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -5116,7 +5308,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -5133,7 +5326,8 @@ display: none;
 }
 /* work notes*/
 .worknotes {
-background-color: gray;
+    background-color: black;
+    color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -5143,7 +5337,8 @@ width: 80%;
 }
 
 .worknotes ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
@@ -5153,11 +5348,12 @@ width: 80%;
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .remove{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
 margin-left: 97%;
 font-size: 20px;
 margin-top: 0px;
@@ -5175,7 +5371,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -5192,7 +5389,8 @@ display: none;
 }
 /* calculatingwork notes*/
 .calculatingworknotes {
-background-color: gray;
+    background-color: black;
+    color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -5202,7 +5400,8 @@ width: 80%;
 }
 
 .calculatingworknotes ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
@@ -5212,10 +5411,12 @@ width: 80%;
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .hide{
-background-color: gray;
+    background-color: black;
+    color: white;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -5259,7 +5460,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 5%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -5282,7 +5484,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 5%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -5297,6 +5500,30 @@ display: none;
     border: 0.1rem solid black;
     border-radius: 20px;
     }
+
+    .notes3-btn{
+        text-decoration: none;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        }
+        
+        
+        .notes3-btn:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+        }
     .realtest{
     text-decoration: none;
     color: white;
@@ -5325,8 +5552,9 @@ display: none;
     /*   notes1*/
     .notes1{
     height: 80%;
-    width: 60%;
-    background-color: gray;
+    width: 80%;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
@@ -5338,16 +5566,19 @@ display: none;
     }
     .notes1 h1 {
         
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes1  ol {
         
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes1 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
@@ -5357,20 +5588,24 @@ display: none;
     }
     .notes1 table{
         width: 100%;
-        background-color: grey;
+        background-color: black;
+        color: white;
     }
     .notes1 table td{
         text-align: center;
+        color: black;
     }
     .notes1 sup{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
        
     }
     
     .notes1 sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
       
@@ -5378,14 +5613,16 @@ display: none;
     }
     
     .notes1 span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 15px;
       
        
     }
     .donotdisplay{
-    background-color: gray;
+        background-color: black;
+        color: white;
     color: white;
     margin-left: 97%;
     font-size: 25px;
@@ -5398,7 +5635,8 @@ display: none;
     .notes2{
     height: 80%;
     width: 80%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
@@ -5410,30 +5648,35 @@ display: none;
     }
     .notes2 h1 {
         
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes2  ol {
         
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes2 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
     
     
     .notes2 sup{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
        
     }
     
     .notes2 sub{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 8px;
       
@@ -5441,14 +5684,15 @@ display: none;
     }
     
     .notes2 span{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         font-size: 15px;
       
        
     }
     .donotdisplay2{
-    background-color: gray;
+    background-color: black;
     color: white;
     margin-left: 97%;
     font-size: 25px;
@@ -5457,6 +5701,76 @@ display: none;
     
     }
     
+        
+    /*   notes3*/
+    .notes3{
+        height: 80%;
+        width: 80%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes3 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes3  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes3 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        
+        .notes3 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+        
+        .notes3 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+        
+        .notes3 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 15px;
+          
+           
+        }
+        .donotdisplay3{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+        }
     .realtest1{
         text-decoration: none;
         color: white;
@@ -5489,7 +5803,7 @@ display: none;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
-    top: 0%;
+    top: 5%;
     width: 60%;
     margin-left: 5%;
     
@@ -5528,7 +5842,7 @@ display: none;
         background-color: aqua;
         font-weight: 700;
         padding: 10px;
-        width: 90%;
+        width: 60%;
         border: none;
         cursor: pointer;
     }
@@ -5575,8 +5889,8 @@ display: none;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
-    top: 10%;
-    width: 90%;
+    top: 5%;
+    width: 60%;
     margin-left: 1%;
     
     }
@@ -6063,7 +6377,8 @@ cursor: pointer;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -6080,13 +6395,14 @@ cursor: pointer;
 }
 /*Impulse and momentum   notes*/
 .impulsenotes {
-height: 60%;
-width: 70%;
-background-color: gray;
+height: 80%;
+width: 80%;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
-top: 30%;
+top: 1%;
 margin-left: 10%;
 grid-auto-flow: column;
 gap:var(--size-3);
@@ -6094,20 +6410,43 @@ overflow-y: auto;
 }
 
 .impulsenotes  ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
 
+.impulsenotes  p{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+
+.impulsenotes  sub{
+    background-color: black;
+    color: white;
+  
+}
+
+.impulsenotes  span{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
 .impulsenotes  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .hide{
-background-color: gray;
+    background-color: black;
+
 color: white;
 margin-left: 95%;
 font-size: 25px;
@@ -6123,11 +6462,12 @@ display: none;
 .momconservation-btn{
     text-decoration: none;
     color: white;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -6144,9 +6484,10 @@ display: none;
 }
 /*Impulse and momentum   notes*/
 .momentumnotes{
-height: 60%;
-width: 70%;
-background-color: gray;
+height: 80%;
+width: 80%;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -6158,20 +6499,45 @@ overflow-y: auto;
 }
 
 .momentumnotes ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
+.momentumnotes sub{
+    background-color: black;
+    color: white;
+   
+}
+
+.momentumnotes sup{
+    background-color: black;
+    color: white;
+
+}
+
+.momentumnotes h1{
+    background-color: black;
+    color: white;
+
+}
+
+.momentumnotes span{
+    background-color: black;
+    color: white;
+
+}
 
 .momentumnotes  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .donotshow{
-    background-color: gray;
+    background-color: black;
     color: white;
     margin-left: 97%;
     font-size: 20px;
@@ -6191,7 +6557,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -6208,9 +6575,10 @@ display: none;
 }
 /*Collison   notes*/
 .collisionnotes{
-height: 60%;
-width: 70%;
-background-color: gray;
+height: 80%;
+width: 80%;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -6222,20 +6590,40 @@ overflow-y: auto;
 }
 
 .collisionnotes ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
+.collisionnotes span{
+    background-color: black;
+    color: white;
+}
+
+.collisionnotes sub{
+    background-color: black;
+    color: white;
+}
+
+.collisionnotes p{
+    background-color: black;
+    color: white;
+}
+.collisionnotes sup{
+    background-color: black;
+    color: white;
+}
 
 .collisionnotes  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .donotdisplay{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -6396,7 +6784,7 @@ display: none;
 
     /*momentumtest3*/
 .momemtumtest3{
-    height: 100%;
+    height: 70%;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
@@ -6493,7 +6881,7 @@ display: none;
 }
 /* Inelastic question 1*/
  .Inelastic1 {
-    height: 100%;
+    height: 70%;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
@@ -6647,7 +7035,7 @@ margin-left: 10%;
 }
 /* Inelastic question 1*/
  .Elastic1 {
-    height: 100%;
+    height: 70%;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
@@ -6968,7 +7356,8 @@ margin-left: 10%;
             margin-bottom: 10%;
             margin-left: 2%;
             border-radius: 20px;
-            background-color: gray;
+            background-color: black;
+            color: white;
             padding: 10px;
             width: 60%;
             border: none;
@@ -6985,9 +7374,10 @@ margin-left: 10%;
         }
         .wavesnotespad {
             height: auto;
-            background-color: gray;
+            background-color: black;
+            color: white;
             border-radius: 10px;
-            width: 70%;
+            width: 80%;
             padding: 10px;
             position: fixed;
             top: 10%;
@@ -6998,18 +7388,19 @@ margin-left: 10%;
             }
 
             .wavesnotespad p{
-                background-color: gray;
+                background-color: black;
                 color: white;
             }
 
             sup{
-                background-color: gray;
+                background-color: black;
                 color: white;
             }
 
             figcaption caption{
-                background-color: gray;
+                background-color: black;
                 color: white;
+
             }
 
             .testwaves{
@@ -7040,7 +7431,7 @@ margin-left: 10%;
                 cursor: pointer;
             }
             .waves1 {
-                height: 70%;
+                height: 80%;
                 background-color: black;
                 border-radius: 10px;
                 padding: 10px;
@@ -7059,14 +7450,14 @@ margin-left: 10%;
                 }
                 
                     .waves1 input{
-                        width: 50%;
+                        width: 80%;
                         border-radius: 0;
                         height: 10%;
                         font-size: 20px;
                     }
 
                     .waves2 {
-                        height: 1000%;
+                        height: 100%;
                         background-color: black;
                         border-radius: 10px;
                         padding: 10px;
@@ -7151,13 +7542,13 @@ margin-left: 10%;
                     }
 
                     .waves6 {
-                        height: 70%;
+                        height: 100%;
                         background-color: black;
                         border-radius: 10px;
                         padding: 10px;
                         position: fixed;
-                        top: 10%;
-                        width: 50%;
+                        top: 0%;
+                        width: 80%;
                         margin-left: 10%;
                         
                         }
@@ -7336,7 +7727,8 @@ margin-left: 10%;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -7355,7 +7747,7 @@ margin-left: 10%;
    margin-top: 10%; 
     margin-left: 18%;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: aqua;
     padding: 10px;
     width: 60%;
     border: none;
@@ -7363,7 +7755,7 @@ margin-left: 10%;
    }  
 
    .chemistrylink a{
-    background-color: orangered;
+    background-color: aqua;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
@@ -7373,12 +7765,13 @@ margin-left: 10%;
 /*----charge notes---*/
    .chargenotes{
     height: 70%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
-    width: 60%;
+    width: 80%;
     padding: 10px;
     position: fixed;
-    top: 10%;
+    top: 5%;
     margin-left: 10%;
     grid-auto-flow: column;
     gap:var(--size-3);
@@ -7386,20 +7779,20 @@ margin-left: 10%;
     }
 
     .chargenotes h1{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     .chargenotes p{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     sup{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
     
    }
 /*--second coulumbs button*/
@@ -7409,7 +7802,8 @@ margin-left: 10%;
    margin-top: 10%; 
     margin-left: 4%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -7425,9 +7819,10 @@ margin-left: 10%;
    
    .chargenotes1{
     height: 70%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
     padding: 10px;
     position: fixed;
     top: 10%;
@@ -7438,14 +7833,14 @@ margin-left: 10%;
     }
 
     .chargenotes1 h1{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     .chargenotes1 p{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
@@ -7654,7 +8049,8 @@ margin-left: 10%;
        margin-top: 10%; 
         margin-left: 4%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -7669,10 +8065,11 @@ margin-left: 10%;
        }
 
        .electricalpotentialnotes{
-        height: 70%;
-        background-color: gray;
+        height: 80%;
+        background-color: black;
+        color: white;
         border-radius: 10px;
-        width: 70%;
+        width: 80%;
         padding: 10px;
         position: fixed;
         top: 10%;
@@ -7683,35 +8080,44 @@ margin-left: 10%;
         }
     
         .electricalpotentialnotes h1{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
     
         .electricalpotentialnotes p{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
        }
        .electricalpotentialnotes ul{
-        background-color: gray;
+        background-color: black;
+        color: white;
         margin-left: 10px;
        } 
        .electricalpotentialnotes ul li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         margin-left: 10px;
        } 
+
+       .electricalpotentialnotes p{
+        background-color: black;
+        color: white;
+       }
        .electricalpotentialnotes sub{
-          background-color: gray;
+        background-color: black;
+        color: white;
        }  
        /*voltage note buttom*/
        .voltage-btn{
         text-decoration: none;
-        color: white;
+
        margin-top: 10%; 
         margin-left: 4%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -7727,9 +8133,10 @@ margin-left: 10%;
      /*Voltage notes*/
        .voltage{
         height: 70%;
-        background-color: gray;
+        background-color: black;
+        color: white;
         border-radius: 10px;
-        width: 60%;
+        width: 80%;
         padding: 10px;
         position: fixed;
         top: 10%;
@@ -7740,26 +8147,29 @@ margin-left: 10%;
         }
     
         .voltage h1{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
     
         .voltage p{
-            background-color: gray;
-            color: black;
-            margin: 10px;
+            background-color: black;
+            color: white;
+    
        }
        .voltage ul{
-        background-color: gray;
+        background-color: black;
+        color: white;
         margin-left: 10px;
        } 
        .voltage ul li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         margin-left: 10px;
        } 
        .voltage sub{
-          background-color: gray;
+        background-color: black;
+        color: white;
        }  
 
        .voltagetest{
@@ -7781,7 +8191,7 @@ margin-left: 10%;
     }
 
     .displaynone{
-        background-color: gray;
+        background-color: black;
         color: white;
         margin-left: 97%;
         font-size: 20px;
@@ -7886,7 +8296,8 @@ margin-left: 10%;
          /*More Voltage notes*/
          .morevoltage{
             height: 70%;
-            background-color: gray;
+            background-color: black;
+            color: white;
             border-radius: 10px;
             width: 80%;
             padding: 10px;
@@ -7899,14 +8310,14 @@ margin-left: 10%;
             }
         
             .morevoltage h1{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
             }
         
             .morevoltage p{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
            }
        /*more voltage test 1*/
@@ -7991,7 +8402,7 @@ margin-left: 10%;
            margin-top: 10%; 
             margin-left: 4%;
             border-radius: 20px;
-            background-color: gray;
+            background-color: black;
             padding: 10px;
             width: 60%;
             border: none;
@@ -8008,7 +8419,8 @@ margin-left: 10%;
             /*current notes*/
        .current{
         height: 70%;
-        background-color: gray;
+        background-color: black;
+        color: white;
         border-radius: 10px;
         width: 80%;
         padding: 10px;
@@ -8021,19 +8433,19 @@ margin-left: 10%;
         }
     
         .current h1{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
     
         .current p{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
        }
 
        .display-none{
-        background-color: gray;
+        background-color: black;
         color: white;
         margin-left: 97%;
         cursor: pointer;
@@ -8045,8 +8457,8 @@ margin-left: 10%;
         color: white;
        margin-top: 10%; 
         margin-left: 4%;
-        border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -8063,7 +8475,8 @@ margin-left: 10%;
              /*ohmslaw notes*/
              .ohmslaw{
                 height: 70%;
-                background-color: gray;
+                background-color: black;
+                color: white;
                 border-radius: 10px;
                 width: 80%;
                 padding: 10px;
@@ -8076,35 +8489,40 @@ margin-left: 10%;
                 }
             
                 .ohmslaw h1{
-                    background-color: gray;
-                    color: black;
+                    background-color: black;
+                    color: white;
                     margin: 10px;
                 }
             
                 .ohmslaw p{
-                    background-color: gray;
-                    color: black;
+                    background-color: black;
+                    color: white;
+         
                     margin: 10px;
                }
 
                .ohmslaw ul{
-               
+                background-color: black;
+                    color: white;
                 margin: 10px;
            }
         .ohmslaw ul li{
-            background-color: gray;
+            background-color: black;
+            color: white;
             color: black;
         }
 
         .ohmslaw span{
-            background-color: gray;
+            background-color: black;
+            color: white;
             font-weight: 700;
         }
                .hide{
-                background-color: gray;
+                background-color: black;
                 color: white;
                 margin-left: 97%;
                 cursor: pointer;
+                font-size: 16px;
                }
 
               /*-.Ohmslawtest button*/
@@ -8173,7 +8591,8 @@ margin-left: 10%;
        margin-top: 10%; 
         margin-left: 4%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -8190,7 +8609,8 @@ margin-left: 10%;
              /*circuits notes*/
              .circuits{
                 height: 70%;
-                background-color: gray;
+                background-color: black;
+                color: white;
                 border-radius: 10px;
                 width: 80%;
                 padding: 10px;
@@ -8203,14 +8623,14 @@ margin-left: 10%;
                 }
             
                 .circuits h1{
-                    background-color: gray;
-                    color: black;
+                    background-color: black;
+                    color: white;
                     margin: 10px;
                 }
             
                 .circuits p{
-                    background-color: gray;
-                    color: black;
+                    background-color: black;
+                    color: white;
                     margin: 10px;
                }
 
@@ -8219,21 +8639,29 @@ margin-left: 10%;
                 margin: 10px;
            }
         .circuits ul li{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
         }
 
         .circuits span{
-            background-color: gray;
+            background-color: black;
+            color: white;
             font-weight: 700;
         }
 
         .circuits sub{
-            background-color: gray;
+            background-color: black;
+            color: white;
+            font-weight: 700;
+        }
+
+        .circuits sup{
+            background-color: black;
+            color: white;
             font-weight: 700;
         }
                .unhide{
-                background-color: gray;
+                background-color: black;
                 color: white;
                 margin-left: 97%;
                 cursor: pointer;
@@ -8480,11 +8908,11 @@ margin-left: 10%;
      
      .power-btn{
         text-decoration: none;
-        color: white;
        margin-top: 10%; 
         margin-left: 4%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -8501,7 +8929,8 @@ margin-left: 10%;
              /*power notes*/
              .power{
                 height: 70%;
-                background-color: gray;
+                background-color: black;
+                color: white;
                 border-radius: 10px;
                 width: 80%;
                 padding: 10px;
@@ -8514,14 +8943,15 @@ margin-left: 10%;
                 }
             
                 .power h1{
-                    background-color: gray;
-                    color: black;
+                    background-color: black;
+                    color: white;
                     margin: 10px;
                 }
             
                 .power p{
-                    background-color: gray;
-                    color: black;
+                    background-color: black;
+                    color: white;
+
                     margin: 10px;
                }
 
@@ -8530,21 +8960,31 @@ margin-left: 10%;
                 margin: 10px;
            }
         .power ul li{
-            background-color: gray;
+            background-color: black;
+            color: white;
             color: black;
         }
 
         .power span{
-            background-color: gray;
+            background-color: black;
+            color: white;
             font-weight: 700;
         }
 
         .power sub{
-            background-color: gray;
+            background-color: black;
+            color: white;
             font-weight: 700;
         }
-               .show{
-                background-color: gray;
+
+        .power sup{
+            background-color: black;
+            color: white;
+            font-weight: 700;
+        }
+             
+        .show{
+                background-color: black;
                 color: white;
                 margin-left: 97%;
                 cursor: pointer;
