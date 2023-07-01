@@ -29,7 +29,6 @@
     padding: 5px;
     background: aqua;
     border-radius: 10px;
-    width:auto;
    }
 
    .mathbasics a{
@@ -126,7 +125,7 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
 padding: 10px;
 width: 60%;
 border: none;
@@ -145,7 +144,7 @@ border-radius: 20px;
 .solveforxfactnotes {
 height: 60%;
 width: 80%;
-background-color: gray;
+background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -157,37 +156,48 @@ overflow-y: auto;
 }
 
 .solveforxfactnotes  ol li{
-background-color: gray;
+background-color: black;
 border: none;
 padding: 10px;
+color: white;
 }
 
 .solveforxfactnotes  h1{
-background-color: gray;
+background-color: black;
+color: white;
 
 }
 
 .solveforxfactnotes  sub{
-background-color: gray;
+background-color: black;
+color: white;
 
 }
+.solveforxfactnotes  sup{
+    background-color: black;
+    color: white;
+    
+    }
 .solveforxfactnotes  ol {
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+
+color: white;
+
 }
 
 .solveforxfactnotes  span {
 
-
+    color: white;
 text-decoration: none;
-background-color: gray;
+background-color: black;
 font-weight: bolder;
 }
 
 .hide{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -207,7 +217,7 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
 padding: 10px;
 width: 60%;
 border: none;
@@ -225,8 +235,8 @@ border-radius: 20px;
 
 .completingasquare{
 height: 80%;
-width: 80%;
-background-color: gray;
+width: 60%;
+background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -235,23 +245,33 @@ margin-left: 5%;
 grid-auto-flow: column;
 gap:var(--size-3);
 overflow-y: auto;
+color: white;
 }
 
 .completingasquare ol li{
-background-color: gray;
+background-color: black;
 border: none;
 padding: 10px;
 }
 
+.completingasquare sup{
+    background-color: black;
+    color: white;
+}
+.completingasquare sub{
+    color: white;
+    background-color: black;
+}
 
 .completingasquare  ol {
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 .donotshow{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 25px;
@@ -276,7 +296,7 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
 padding: 10px;
 width: 60%;
 border: none;
@@ -295,7 +315,7 @@ border-radius: 20px;
 .notes1{
 height: 80%;
 width: 80%;
-background-color: gray;
+background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -307,43 +327,49 @@ overflow-y: auto;
 }
 .notes1 h1 {
 
-background-color: gray;
+background-color: black;
+color: white;
 }
 .notes1  ol {
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 .notes1 ol li{
-background-color: gray;
+background-color: black;
 border: none;
 padding: 10px;
+color: white;
+
 }
 
 .notes1 sup{
-background-color: gray;
+background-color: black;
 border: none;
+color: white;
 
 
 }
 
 .notes1 sub{
-background-color: gray;
+background-color: black;
 border: none;
-
+color: white;
 
 }
 
 .notes1 span{
-background-color: gray;
+background-color: black;
 border: none;
 font-size: 15px;
+color: white;
 
 
 }
 .donotdisplay{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 25px;
@@ -996,7 +1022,7 @@ margin-top: 10%;
 margin-bottom: 10%;
 margin-left: 15%;
 border-radius: 20px;
-background-color: gray;
+background-color: black;
 padding: 10px;
 width: 60%;
 border: none;
@@ -1015,7 +1041,8 @@ border-radius: 20px;
 .notes3{
 height: 80%;
 width: 80%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -1030,43 +1057,48 @@ overflow-y: auto;
 
 padding: 10px;
 text-decoration: none;
-background-color: gray;
+background-color: black;
+color: white;
 }
 
 .notes3 h1 {
 
-
-background-color: gray;
+    color: white;
+background-color: black;
 }
 .notes3 ol li{
-background-color: gray;
+background-color: black;
 border: none;
 padding: 10px;
+color: white;
 }
 
 .notes3 sup{
-background-color: gray;
+background-color: black;
 border: none;
+color: white;
 
 
 }
 
 .notes3 sub{
-background-color: gray;
+background-color: black;
 border: none;
+color: white;
 
 
 }
 
 .notes3 span{
-background-color: gray;
+background-color: black;
 border: none;
 font-size: 15px;
+color: white;
 
 
 }
 .donotdisplay{
-background-color: gray;
+background-color: black;
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -1654,8 +1686,9 @@ font-weight: 700;
 /*----charge notes---*/
    .notes2{
     height: 70%;
-    background-color: gray;
+    background-color: black;
     border-radius: 10px;
+    color: white;
     width: 80%;
     padding: 10px;
     position: fixed;
@@ -1667,32 +1700,35 @@ font-weight: 700;
     }
 
     .notes2 h1{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
         margin: 10px;
     }
 
     .notes2 p{
-        background-color: gray;
+        background-color: black;
         color: black;
         margin: 10px;
+        color: white;
     }
 
     .notes2  ol {
 
         padding: 10px;
         text-decoration: none;
-        background-color: gray;
+        background-color: black;
+        color: white;
     }
     .notes2 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         border: none;
         padding: 10px;
     }
 
     sup{
-        background-color: gray;
-        color: black;
+        background-color: black;
+        color: white;
     
    }
 /*--second coulumbs button*/
@@ -1702,7 +1738,7 @@ font-weight: 700;
    margin-top: 10%; 
     margin-left: 1%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
     padding: 10px;
     width: 60%;
     border: none;
@@ -1745,7 +1781,7 @@ font-weight: 700;
        margin-top: 10%; 
         margin-left: 4%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
         padding: 10px;
         width: 60%;
         border: none;
@@ -1762,7 +1798,8 @@ font-weight: 700;
 
        .notes4{
         height: 70%;
-        background-color: gray;
+        background-color: black;
+        color: white;
         border-radius: 10px;
         width: 80%;
         padding: 10px;
@@ -1775,34 +1812,44 @@ font-weight: 700;
         }
     
         .notes4 h1{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
            
         }
     
         .notes4 h2{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
             
         }
         .notes4 p{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
+            
        }
        .notes4 ol{
-        background-color: gray;
+        background-color: black;
         margin-left: 10px;
+        color: white;
        } 
        .notes4 ol li{
-        background-color: gray;
+        background-color: black;
+        color: white;
         margin-left: 10px;
        } 
        .notes4 sub{
-          background-color: gray;
+        background-color: black;
+        color: white;
        }  
-
+       .unhide{
+        background-color: black;
+                                    color: white;
+                                    font-size: 20px;
+                                    margin-left: 97%;
+                                    cursor: pointer;
+       } 
 
 /*Share buttons*/
 .share-container{
@@ -2041,164 +2088,9 @@ color: black;
     text-decoration: none;
     color: black;
  }
-.freebodies{
-    text-decoration: none;
-    color: white;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-    border-radius: 20px;
-    background-color: gray;
-    padding: 10px;
-    width: 60%;
-    border: none;
-    cursor: pointer;
-}
 
 
-.freebodies:hover{
-    font-weight: bolder;
-    background-color: white;
-    color: black;
-    border: 0.1rem solid black;
-    border-radius: 20px;
-}
 
-.freebodiesnotes{
-background-color: gray;
-color: white;
-border-radius: 10px;
-padding: 10px;
-position: fixed;
-top: 10%;
-margin-left: 10%;
-}
-
-.out{
-background-color: gray;
-color: white;
-margin-left: 97%;
-}
-
-.pad{
-display: none;
-}
-
-/*work button*/    
-.work{
-    text-decoration: none;
-    color: white;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-    border-radius: 20px;
-    background-color: gray;
-    padding: 10px;
-    width: 60%;
-    border: none;
-    cursor: pointer;
-}
-
-
-.work:hover{
-    font-weight: bolder;
-    background-color: white;
-    color: black;
-    border: 0.1rem solid black;
-    border-radius: 20px;
-}
-/* work notes*/
-.worknotes {
-background-color: gray;
-border-radius: 10px;
-padding: 10px;
-position: fixed;
-top: 10%;
-margin-left: 10%;
-}
-
-.worknotes ol li{
-    background-color: gray;
-    border: none;
-    padding: 10px;
-}
-
-
-.worknotes ol {
-    
-    padding: 10px;
-    text-decoration: none;
-    background-color: gray;
-}
-.remove{
-background-color: gray;
-color: white;
-margin-left: 97%;
-font-size: 20px;
-margin-top: 0px;
-}
-
-.kindle{
-display: none;
-}
-
-/*calculatingwork button*/    
-.calculatingwork{
-    text-decoration: none;
-    color: white;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-    border-radius: 20px;
-    background-color: gray;
-    padding: 10px;
-    width: 60%;
-    border: none;
-    cursor: pointer;
-}
-
-
-.calculatingwork:hover{
-    font-weight: bolder;
-    background-color: white;
-    color: black;
-    border: 0.1rem solid black;
-    border-radius: 20px;
-}
-/* calculatingwork notes*/
-.calculatingworknotes {
-background-color: gray;
-border-radius: 10px;
-padding: 10px;
-position: fixed;
-top: 30%;
-margin-left: 10%;
-}
-
-.calculatingworknotes ol li{
-    background-color: gray;
-    border: none;
-    padding: 10px;
-}
-
-
-.calculatingworknotes ol {
-    
-    padding: 10px;
-    text-decoration: none;
-    background-color: gray;
-}
-.hide{
-background-color: gray;
-color: white;
-margin-left: 97%;
-font-size: 20px;
-margin-top: 0px;
-}
-
-.notes{
-display: none;
-}
 /*Test Your knowledge button*/
 .test{
     text-decoration: none;
@@ -2235,7 +2127,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -2254,7 +2147,8 @@ display: none;
 .solveforxfactnotes {
 height: 60%;
 width: 70%;
-background-color: gray;
+background-color: black;
+            color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -2266,37 +2160,43 @@ overflow-y: auto;
 }
 
 .solveforxfactnotes  ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
 .solveforxfactnotes  h1{
-    background-color: gray;
+    background-color: black;
+    color: white;
     
 }
 
 .solveforxfactnotes  sub{
-    background-color: gray;
+    background-color: black;
+    color: white;
     
 }
 .solveforxfactnotes  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 
 .solveforxfactnotes  span {
     
 
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
     font-weight: bolder;
 }
 
 .hide{
-background-color: gray;
+background-color: black;
+    
 color: white;
 margin-left: 97%;
 font-size: 20px;
@@ -2316,7 +2216,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -2335,7 +2236,8 @@ display: none;
 .completingasquare{
 height: 80%;
 width: 70%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -2347,7 +2249,8 @@ overflow-y: auto;
 }
 
 .completingasquare ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
@@ -2356,23 +2259,18 @@ overflow-y: auto;
 .completingasquare  ol {
     
     padding: 10px;
-    text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .donotshow{
-    background-color: gray;
+    background-color: black;
+
     color: white;
     margin-left: 97%;
     font-size: 25px;
     margin-top: 0px;
     cursor: pointer;
 }
-
-.notes{
-display: none;
-}
-
-
 
 .notes{
 display: none;
@@ -2385,7 +2283,8 @@ display: none;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -2404,7 +2303,8 @@ display: none;
 .notes1{
 height: 80%;
 width: 70%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -2416,44 +2316,51 @@ overflow-y: auto;
 }
 .notes1 h1 {
     
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes1  ol {
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes1 ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
 .notes1 sup{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
   
    
 }
 
 .notes1 sub{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
   
    
 }
 
 .notes1 span{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 15px;
   
    
 }
 .donotdisplay{
-background-color: gray;
-color: white;
+    background-color: black;
+    color: white;
+
 margin-left: 97%;
 font-size: 25px;
 margin-top: 0px;
@@ -3083,7 +2990,8 @@ margin-left: 1%;
     margin-bottom: 10%;
     margin-left: 15%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
     width: 60%;
     border: none;
@@ -3102,7 +3010,8 @@ margin-left: 1%;
 .notes3{
 height: 80%;
 width: 70%;
-background-color: gray;
+background-color: black;
+color: white;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
@@ -3117,44 +3026,51 @@ overflow-y: auto;
     
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 
 .notes3 h1 {
     
     
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 .notes3 ol li{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px;
 }
 
 .notes3 sup{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
   
    
 }
 
 .notes3 sub{
-    background-color: gray;
+    background-color: black;
+    color: white;
     border: none;
   
    
 }
 
-.notes3 span{
-    background-color: gray;
+.notes3 span{   
+     background-color: black;
+    color: white;
     border: none;
     font-size: 15px;
   
    
 }
 .donotdisplay{
-background-color: gray;
+background-color: black;
 color: white;
+
 margin-left: 97%;
 font-size: 20px;
 margin-top: 0px;
@@ -3741,7 +3657,8 @@ cursor: pointer;
     /*----charge notes---*/
        .notes2{
         height: 70%;
-        background-color: gray;
+        background-color: black;
+        color: white;
         border-radius: 10px;
         width: 80%;
         padding: 10px;
@@ -3754,14 +3671,14 @@ cursor: pointer;
         }
     
         .notes2 h1{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
     
         .notes2 p{
-            background-color: gray;
-            color: black;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
 
@@ -3769,27 +3686,31 @@ cursor: pointer;
     
             padding: 10px;
             text-decoration: none;
-            background-color: gray;
+            background-color: black;
+            color: white;
         }
         .notes2 ol li{
-            background-color: gray;
+            background-color: black;
+            color: white;
             border: none;
             padding: 10px;
         }
     
         sup{
-            background-color: gray;
+            background-color: black;
+            color: white;
             color: black;
         
        }
     /*--second coulumbs button*/
        .notes2-btn{
         text-decoration: none;
-        color: white;
+
        margin-top: 10%; 
         margin-left: 1%;
         border-radius: 20px;
-        background-color: gray;
+        background-color: black;
+        color: white;
         padding: 10px;
         width: 60%;
         border: none;
@@ -3832,7 +3753,8 @@ cursor: pointer;
            margin-top: 10%; 
             margin-left: 4%;
             border-radius: 20px;
-            background-color: gray;
+            background-color: black;
+            color: white;
             padding: 10px;
             width: 60%;
             border: none;
@@ -3849,7 +3771,8 @@ cursor: pointer;
     
            .notes4{
             height: 70%;
-            background-color: gray;
+            background-color: black;
+            color: white;
             border-radius: 10px;
             width: 80%;
             padding: 10px;
@@ -3862,36 +3785,45 @@ cursor: pointer;
             }
         
             .notes4 h1{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                
             }
         
             .notes4 h2{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
                 
             }
             .notes4 p{
-                background-color: gray;
-                color: black;
+                background-color: black;
+                color: white;
                 margin: 10px;
            }
            .notes4 ol{
-            background-color: gray;
+            background-color: black;
+            color: white;
             margin-left: 10px;
            } 
            .notes4 ol li{
-            background-color: gray;
+            background-color: black;
+            color: white;
             margin-left: 10px;
            } 
            .notes4 sub{
-              background-color: gray;
+            background-color: black;
+            color: white;
            }  
 
 
-          
+       .unhide{
+        background-color: black;
+                                    color: white;
+                                    font-size: 20px;
+                                    margin-left: 97%;
+                                    cursor: pointer;
+       }   
     
     
 
