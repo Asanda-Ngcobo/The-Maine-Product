@@ -2004,6 +2004,170 @@ margin-left: 80%;
 cursor: pointer;
 
 }
+
+
+/* question 13*/
+.solveforxfact13 {
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 80%;
+    margin-left: 1%;
+  
+    }
+
+    .solveforxfact13  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .solveforxfact13  p sup {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+       
+    }
+    .solveforxfact13 input{
+        width: 50%;
+        border-radius: 0;
+        height: 5%;
+        font-size: 20px;
+    }
+
+    .answer13{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer13:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+ 
+.getout13{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.chances13{
+background-color: black;
+color: white;
+}
+
+.next13{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+
+/* question 14*/
+.solveforxfact14 {
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 80%;
+    margin-left: 1%;
+  
+    }
+
+    .solveforxfact14  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .solveforxfact14  p sup {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+       
+    }
+    .solveforxfact14 input{
+        width: 50%;
+        border-radius: 0;
+        height: 5%;
+        font-size: 20px;
+    }
+
+    .answer14{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer14:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+ 
+.getout14{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.chances14{
+background-color: black;
+color: white;
+}
+
+.next14{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
 /*Momentum*/
 
 /*Impulse and momentum button*/    
@@ -6361,6 +6525,168 @@ color: white;
 }
 
 .next7{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+   
+/* question 13*/
+.solveforxfact13 {
+    height: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 60%;
+    margin-left: 1%;
+  
+    }
+
+    .solveforxfact13  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .solveforxfact13  p sup {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+       
+    }
+    .solveforxfact13 input{
+        width: 50%;
+        border-radius: 0;
+        height: 5%;
+        font-size: 20px;
+    }
+
+    .answer13{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer13:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+ 
+.getout13{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 25px;
+cursor: pointer;
+}
+
+.chances13{
+background-color: black;
+color: white;
+}
+
+.next13{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+   
+/* question 14*/
+.solveforxfact14 {
+    height: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 60%;
+    margin-left: 1%;
+  
+    }
+
+    .solveforxfact14  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .solveforxfact14  p sup {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+       
+    }
+    .solveforxfact14 input{
+        width: 50%;
+        border-radius: 0;
+        height: 5%;
+        font-size: 20px;
+    }
+
+    .answer14{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer14:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+ 
+.getout14{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 25px;
+cursor: pointer;
+}
+
+.chances14{
+background-color: black;
+color: white;
+}
+
+.next14{
 background-color: antiquewhite;
 padding: 10px;
 margin-left: 80%;
