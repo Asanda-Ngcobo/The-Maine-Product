@@ -672,7 +672,7 @@ footer ul li a img:hover{
     background-color: black;
 
     height: auto;
-    margin-left: 0%;
+
 }
 
 .socials ul li {
@@ -684,7 +684,5 @@ footer ul li a img:hover{
     
 }
 
-.copyright{
-    margin-left: 0%;
-}
+
 }
