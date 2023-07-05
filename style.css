@@ -672,16 +672,19 @@ footer ul li a img:hover{
     background-color: black;
 
     height: auto;
-
+    margin-left: 4%;
 }
 
 .socials ul li {
     display: inline-block;
     text-decoration: none;
     padding: 10px;
-    list-style: none;
 
-    
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 7%;
 }
 
 
