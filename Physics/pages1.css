@@ -3635,7 +3635,7 @@ margin: 10px;
 
  footer{
     background-color: white;
-    height: 50%;
+    height: 150px;
     margin-bottom: 0%;
     margin-top: 5%;
     color: black;
@@ -3663,6 +3663,24 @@ footer ul li a:hover{
 
 footer ul li a img:hover{
     width: 25px;
+}
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left:0;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 0%;
 }
 
  /* periodictable*/
@@ -5631,7 +5649,7 @@ cursor: pointer;
     font-weight: bold;
  }
  footer{
-    background-color: whitesmoke;
+    background-color: white;
     height: auto;
     margin-bottom: 0%;
     margin-top: 5%;
@@ -5647,7 +5665,8 @@ footer ul li{
     text-decoration: none;
     list-style: none;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    font-size: 10px;
 }
 footer ul li a{
     color: black;
@@ -5661,7 +5680,26 @@ footer ul li a:hover{
 
 footer ul li a img:hover{
     width: 25px;
-    
+    margin-left: 50%;
+}
+
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left: 4%;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 7%;
 }
 }
 
