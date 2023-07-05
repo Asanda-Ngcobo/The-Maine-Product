@@ -223,39 +223,7 @@ p{
     text-align: left;
 }
 
-footer{
-   
-    height: 150px;
-    margin-bottom: 0%;
-    margin-top: 10%;
-    color: black;
-}
 
-footer ul{
-    
-    text-decoration: none;
-}
-footer ul li{
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif ;
-}
-footer ul li a{
-    color: black;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif ;
-    
-   
-}
-footer ul li a:hover{
-    font-weight: bolder;
-}
-
-footer ul li a img:hover{
-    width: 25px;
-}
 
 /*-------About Us----------*/
 
@@ -316,7 +284,7 @@ footer ul li a img:hover{
 
 .cookie-container p a{
 font-size: 16px;
-    background: whitesmoke;
+background: whitesmoke;
 }
 .cookie-btn{
     left: 80%;
@@ -331,6 +299,56 @@ font-size: 16px;
 .cookie-btn:hover{
     text-decoration: underline;
     font-weight: 500;
+}
+
+footer{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left:0;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 0%;
 }
 @media screen and (min-width: 300px) and (max-width: 480px){
  
@@ -350,7 +368,7 @@ font-size: 16px;
         width: 100%;
         margin-left: 0;
         right: 0;
-       margin-bottom: 10%;
+       margin-bottom: 15%;
         background-color: white;
       
       
@@ -359,7 +377,7 @@ font-size: 16px;
     }
 
     .body{
-        margin-top: 30%;
+        margin-top: 40%;
     }
   
     
@@ -418,7 +436,7 @@ padding: 10px;
         position: absolute;
         padding-bottom: 20px;
         top: 8%;
-        color: black;
+        color: white;
      
     font-family:  'Montserrat', sans-serif;
     background: transparent;
@@ -546,43 +564,7 @@ padding: 10px;
       
     }
   
-    footer{
-        background-color: whitesmoke;
-        height: auto;
-        margin-bottom: 0%;
-        margin-top: 5%;
-        color: black;
-        text-align: center;
-        
-    }
-    
-    footer ul{
-        
-        text-decoration: none;
-    }
-    footer ul li{
-        display: block;
-        font-size: 8px;
-        text-decoration: none;
-        list-style: none;
-        padding-bottom: 20px;
-        text-align: center;
-    }
-    footer ul li a{
-        color: black;
-        text-decoration: none;
-        font-size: 8px;
-        
-       
-    }
-    footer ul li a:hover{
-        font-weight: bolder;
-    }
-    
-    footer ul li a img:hover{
-        width: 25px;
-    }
-    
+
     
 
 .cookie-container{
@@ -649,5 +631,58 @@ font-size: 16px;
 .cookie-btn:hover{
     text-decoration: underline;
     font-weight: 500;
+}
+footer{
+    background-color: black;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 10px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+    margin-left: 50%;
+}
+
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left: 0%;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 0%;
 }
 }
