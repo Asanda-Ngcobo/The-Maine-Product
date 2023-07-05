@@ -343,6 +343,7 @@ footer ul li a img:hover{
     display: inline-block;
     text-decoration: none;
     padding: 20px;
+    list-style: none;
 
     border-radius: 50%;
 }
@@ -678,8 +679,9 @@ footer ul li a img:hover{
     display: inline-block;
     text-decoration: none;
     padding: 10px;
+    list-style: none;
 
-    border-radius: 50%;
+    
 }
 
 .copyright{
