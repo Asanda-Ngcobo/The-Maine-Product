@@ -48,7 +48,7 @@ function checkCountry() {
       const visitorCountry = data.country_code;
       
       // Redirect if the visitor's country doesn't match the allowed country
-      if (visitorCountry !== allowedCountry) {
+      if (visitorCountry === allowedCountry) {
         window.location.href = 'https://ecolie.co.za/restricted.html'; // Replace with your restricted page URL
       }
     })
