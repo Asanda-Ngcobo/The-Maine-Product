@@ -32,10 +32,11 @@ getout.addEventListener('click', () => {
 
 });
 
+
 // Check if the visitor's country matches the allowed country
 function checkCountry() {
   // Replace 'XX' with the country code you want to allow
-  const allowedCountry = 'ZA';
+  const allowedCountry = '27';
   
   
   // Make an API call to get the visitor's country
@@ -44,7 +45,7 @@ function checkCountry() {
       return response.json();
     })
     .then(function(data) {
-      const visitorCountry = data.country_code2;
+      const visitorCountry = data.country_code;
       
       // Redirect if the visitor's country doesn't match the allowed country
       if (visitorCountry !== allowedCountry) {
@@ -54,5 +55,6 @@ function checkCountry() {
     .catch(function(error) {
       console.error('Error:', error);
     });
+}
 }
    
