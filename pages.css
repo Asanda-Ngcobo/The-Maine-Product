@@ -378,6 +378,182 @@ cursor: pointer;
 
 }
 
+.notes2-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    .notes2-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+/*----notes2---*/
+.notes2{
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 10%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+
+    .notes2 h1{
+        background-color: black;
+        color: white;
+        margin: 10px;
+    }
+
+    .notes2 p{
+        background-color: black;
+        color: black;
+        margin: 10px;
+        color: white;
+    }
+
+    .notes2  ol {
+
+        padding: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    .notes2 ol li{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+
+    sup{
+        background-color: black;
+        color: white;
+    
+   }
+ 
+   .donotdisplay2{
+    background-color: black;
+                                color: white;
+                                font-size: 20px;
+                                margin-left: 97%;
+                                cursor: pointer;
+   }
+ 
+
+    /*--testelectrostatics button*/
+    .test4{
+        width: 60%;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+        margin: 10%;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 12%;
+        color: white;
+    }
+
+    .test4:hover{
+        background-color: white;
+        color: black;
+    }
+
+    
+
+    .notes4-btn{
+        text-decoration: none;
+        color: white;
+       margin-top: 10%; 
+        margin-left: 4%;
+        border-radius: 20px;
+        background-color: black;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+       }     
+
+       .notes4-btn:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+       }
+
+       .notes4{
+        height: 70%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 80%;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+    
+        .notes4 h1{
+            background-color: black;
+            color: white;
+           
+        }
+    
+        .notes4 h2{
+            background-color: black;
+            color: white;
+            margin: 10px;
+            
+        }
+        .notes4 p{
+            background-color: black;
+            color: white;
+            margin: 10px;
+            
+       }
+       .notes4 ol{
+        background-color: black;
+        margin-left: 10px;
+        color: white;
+       } 
+       .notes4 ol li{
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+       } 
+       .notes4 sub{
+        background-color: black;
+        color: white;
+       }  
+       .donotdisplay4{
+        background-color: black;
+                                    color: white;
+                                    font-size: 20px;
+                                    margin-left: 97%;
+                                    cursor: pointer;
+       }
 .test{
 text-decoration: none;
 color: black;
@@ -1097,7 +1273,7 @@ color: white;
 
 
 }
-.donotdisplay{
+.donotdisplay3{
 background-color: black;
 color: white;
 margin-left: 97%;
@@ -1683,173 +1859,7 @@ font-weight: 700;
            
             
         }
-/*----charge notes---*/
-   .notes2{
-    height: 70%;
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    width: 80%;
-    padding: 10px;
-    position: fixed;
-    top: 10%;
-    margin-left: 10%;
-    grid-auto-flow: column;
-    gap:var(--size-3);
-    overflow-y: auto;
-    }
-
-    .notes2 h1{
-        background-color: black;
-        color: white;
-        margin: 10px;
-    }
-
-    .notes2 p{
-        background-color: black;
-        color: black;
-        margin: 10px;
-        color: white;
-    }
-
-    .notes2  ol {
-
-        padding: 10px;
-        text-decoration: none;
-        background-color: black;
-        color: white;
-    }
-    .notes2 ol li{
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px;
-    }
-
-    sup{
-        background-color: black;
-        color: white;
-    
-   }
-/*--second coulumbs button*/
-   .notes2-btn{
-    text-decoration: none;
-    color: white;
-   margin-top: 10%; 
-    margin-left: 1%;
-    border-radius: 20px;
-    background-color: black;
-    padding: 10px;
-    width: 60%;
-    border: none;
-    cursor: pointer;
-   }     
-   .notes2-btn:hover{
-    font-weight: bolder;
-    background-color: white;
-    color: black;
-    border: 0.1rem solid black;
-    border-radius: 20px;
-   } 
-   
  
-
-    /*--testelectrostatics button*/
-    .test4{
-        width: 60%;
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        background-color: aqua;
-        font-weight: 700;
-        margin: 10%;
-        padding: 10px;
-        border-radius: 20px;
-        margin-left: 12%;
-        color: white;
-    }
-
-    .test4:hover{
-        background-color: white;
-        color: black;
-    }
-
-    
-
-    .notes4-btn{
-        text-decoration: none;
-        color: white;
-       margin-top: 10%; 
-        margin-left: 4%;
-        border-radius: 20px;
-        background-color: black;
-        padding: 10px;
-        width: 60%;
-        border: none;
-        cursor: pointer;
-       }     
-
-       .notes4-btn:hover{
-        font-weight: bolder;
-        background-color: white;
-        color: black;
-        border: 0.1rem solid black;
-        border-radius: 20px;
-       }
-
-       .notes4{
-        height: 70%;
-        background-color: black;
-        color: white;
-        border-radius: 10px;
-        width: 80%;
-        padding: 10px;
-        position: fixed;
-        top: 10%;
-        margin-left: 10%;
-        grid-auto-flow: column;
-        gap:var(--size-3);
-        overflow-y: auto;
-        }
-    
-        .notes4 h1{
-            background-color: black;
-            color: white;
-           
-        }
-    
-        .notes4 h2{
-            background-color: black;
-            color: white;
-            margin: 10px;
-            
-        }
-        .notes4 p{
-            background-color: black;
-            color: white;
-            margin: 10px;
-            
-       }
-       .notes4 ol{
-        background-color: black;
-        margin-left: 10px;
-        color: white;
-       } 
-       .notes4 ol li{
-        background-color: black;
-        color: white;
-        margin-left: 10px;
-       } 
-       .notes4 sub{
-        background-color: black;
-        color: white;
-       }  
-       .unhide{
-        background-color: black;
-                                    color: white;
-                                    font-size: 20px;
-                                    margin-left: 97%;
-                                    cursor: pointer;
-       } 
 
 /*Share buttons*/
 .share-container{
@@ -2475,12 +2485,12 @@ cursor: pointer;
 
 /*solve for x 2*/
 .solveforxfact2{
-    height: 70%;
+    height: auto;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
-    top: 10%;
+    top: 1%;
     width: 70%;
     margin-left: 1%;
   
@@ -2554,7 +2564,7 @@ cursor: pointer;
 
     /*solve for x 3*/
 .solveforxfact3{
-    height: 70%;
+    height: auto;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
@@ -2657,12 +2667,12 @@ cursor: pointer;
 }
 /* Solve for x using quadratic 1*/
  .solveforxfact4  {
-    height: 80%;
+    height: auto;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
-    top: 10%;
+    top: 1%;
     width: 70%;
     margin-left: 1%;
   
@@ -2742,12 +2752,12 @@ cursor: pointer;
 
 /* Solve for x using quadratic 2*/
 .solveforxfact5 {
-height: 80%;
+height: auto;
 background-color: black;
 border-radius: 10px;
 padding: 10px;
 position: fixed;
-top: 10%;
+top: 1%;
 width: 70%;
 margin-left: 1%;
 
@@ -2843,12 +2853,12 @@ margin-left: 1%;
     }
     /* question 6*/
      .solveforxfact6 {
-        height: 80%;
+        height: auto;
         background-color: black;
         border-radius: 10px;
         padding: 10px;
         position: fixed;
-        top: 10%;
+        top: 1%;
         width: 70%;
         margin-left: 1%;
       
@@ -2924,12 +2934,12 @@ margin-left: 1%;
     
     /*Logarithmic*/
     .solveforxfact7 {
-    height: 60%;
+    height: auto;
     background-color: black;
     border-radius: 10px;
     padding: 10px;
     position: fixed;
-    top: 10%;
+    top: 1%;
     width: 70%;
     margin-left: 10%;
     
@@ -3000,6 +3010,104 @@ margin-left: 1%;
         
         }
 
+         /*--notes2 button*/
+       .notes2-btn{
+        text-decoration: none;
+
+       margin-top: 10%; 
+        margin-left: 1%;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+       }     
+       .notes2-btn:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+       } 
+       
+     
+
+         /*notes2*/
+.notes2-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.notes2  ol {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.notes2 h1 {
+    
+    
+    background-color: black;
+    color: white;
+}
+.notes2 ol li{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.notes2 sup{
+    background-color: black;
+    color: white;
+    border: none;
+  
+   
+}
+
+.notes2 sub{
+    background-color: black;
+    color: white;
+    border: none;
+  
+   
+}
+
+.notes2 span{   
+     background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+  
+   
+}
+.donotdisplay2{
+background-color: black;
+color: white;
+
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
         /*notes3 button*/
 .notes3-btn{
     text-decoration: none;
@@ -3085,7 +3193,7 @@ overflow-y: auto;
   
    
 }
-.donotdisplay{
+.donotdisplay3{
 background-color: black;
 color: white;
 
@@ -3672,77 +3780,8 @@ cursor: pointer;
                
                 
             }
-    /*----charge notes---*/
-       .notes2{
-        height: 70%;
-        background-color: black;
-        color: white;
-        border-radius: 10px;
-        width: 80%;
-        padding: 10px;
-        position: fixed;
-        top: 10%;
-        margin-left: 10%;
-        grid-auto-flow: column;
-        gap:var(--size-3);
-        overflow-y: auto;
-        }
-    
-        .notes2 h1{
-            background-color: black;
-            color: white;
-            margin: 10px;
-        }
-    
-        .notes2 p{
-            background-color: black;
-            color: white;
-            margin: 10px;
-        }
-
-        .notes2  ol {
-    
-            padding: 10px;
-            text-decoration: none;
-            background-color: black;
-            color: white;
-        }
-        .notes2 ol li{
-            background-color: black;
-            color: white;
-            border: none;
-            padding: 10px;
-        }
-    
-        sup{
-            background-color: black;
-            color: white;
-            color: black;
-        
-       }
-    /*--second coulumbs button*/
-       .notes2-btn{
-        text-decoration: none;
-
-       margin-top: 10%; 
-        margin-left: 1%;
-        border-radius: 20px;
-        background-color: black;
-        color: white;
-        padding: 10px;
-        width: 60%;
-        border: none;
-        cursor: pointer;
-       }     
-       .notes2-btn:hover{
-        font-weight: bolder;
-        background-color: white;
-        color: black;
-        border: 0.1rem solid black;
-        border-radius: 20px;
-       } 
-       
-     
+   
+   
     
         /*--testelectrostatics button*/
         .test4{
