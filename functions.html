@@ -171,7 +171,8 @@ gtag('config', 'UA-238019491-1');
    <button class="answer2">Check</button>
    
    <p class="label-score2">Chances: <span class="chances2">3</span></p>
-   <p class="message2">You get three chances per question. 
+   <p class="message2">You get three chances per question. Put the smaller value of x first and correct it into TWO decimal places. 
+        Please put both answers before clicking check.
     </p>
 
    <button class="next2 notes">Next</button>
@@ -369,7 +370,7 @@ gtag('config', 'UA-238019491-1');
     <ol>
        <li><h1>Hyperbolas</h1></li>
        <li>Have a general equation of f(x) = a/x + p + q</li>
-       <li>if a is positive, you get a top-right and bottom-left graph. <br>
+       <li> If a is positive, you get a top-right and bottom-left graph. <br>
         <img src="" alt="" width="">
     </li>
 
@@ -377,7 +378,7 @@ gtag('config', 'UA-238019491-1');
         <img src="" alt="" width="">
     </li>
 
-    <li>x + p, gives the vertical asymptote by making x + p = 0 and solve for x, therefore vertical asymptope is x = -p</li>
+    <li>x + p, gives the vertical asymptote by making x + p = 0 and solve for x, therefore vertical asymptote is x = -p</li>
     <li>q is the horizontal asymptote </li>
     </ol>
     <ol>
@@ -388,13 +389,13 @@ gtag('config', 'UA-238019491-1');
     x = -1 <br>
     Vertical asymptotes coordinates are (-1; 0) <br>
 
-    Horizontal asymptote is q. Therefore, vertical asymptotes coordinates are (0; -2)
+    The horizontal asymptote is q. Therefore, vertical asymptotes' coordinates are (0; -2)
    
     </li>
 
     <li> Predict the shape <br>
     
-    Since a is positive, the shape of the graph, should be top-right and bottom-left.</li>
+    Since a is positive, the shape of the graph should be top-right and bottom-left.</li>
 
     <li>Find the intercepts: <br>
     y-intercept, x = 0 <br>
@@ -635,8 +636,8 @@ else if (input1  !== answer1){
     //input answer
   
     //what is the right answer
-    let answer2 =  '6';
-    let answer3 =  '-4';
+    let answer2 =  '-4';
+    let answer3 =  '6';
    
     //let chances
     let chances2 = 3;
@@ -667,7 +668,7 @@ else if (input2  !== answer2 || input3  !== answer3){
             document.querySelector('.chances2').textContent = chances2;
     }
     else{
-        displayMessage2('The correct answers are  6 and -4. x^2 - 2x - 24 = 0, solve for x, x^2 -6x + 4x - 24 = 0, (x^2 - 6x) (4x -24), x(x - 6) 4(x - 6), x + 4 and x - 6, therefore, x = 6 and x = -4.');
+        displayMessage2('The correct answers are -4 and 6. x^2 - 2x - 24 = 0, solve for x, x^2 -6x + 4x - 24 = 0, (x^2 - 6x) (4x -24), x(x - 6) 4(x - 6), x + 4 and x - 6, therefore, x = -4 and x = 6.');
         document.querySelector('.chances2').textContent = 0;
         document.querySelector('.chances2').style.backgroundColor = 'red';
         question2.style.backgroundColor = 'red';
