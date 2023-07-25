@@ -391,25 +391,7 @@ Immediately after the collision, ball X comes to rest, and ball Y
    </div>    
 </div>
 <script>
-     const shareContainer = document.querySelector(".share-container");
-    const shareButton = document.querySelector(".share-btn");
-    const btnCloseModal = document.querySelector(".closebtn");
-        shareButton.addEventListener("click", ()=> {
-            shareContainer.classList.remove("high");
-            localStorage.setItem("shareBunnerDisplayed", "true");
-        });
-        
-        setTimeout(()=> {
-            if(!localStorage.getItem("shareBunnerDisplayed")){
-            shareContainer.classList.add("high")
-            }
-            
-        }, 2000);
-    
-       
-       btnCloseModal.addEventListener('click', ()=> {
-        shareContainer.classList.remove('high');
-       });
+  
 
        //Impulse and momemntum
 
