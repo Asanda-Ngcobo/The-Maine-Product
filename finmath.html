@@ -267,25 +267,8 @@ gtag('config', 'UA-238019491-1');
 </body>
 
 <script>
-     const shareContainer = document.querySelector(".share-container");
-    const shareButton = document.querySelector(".share-btn");
-    const btnCloseModal = document.querySelector(".closebtn");
-        shareButton.addEventListener("click", ()=> {
-            shareContainer.classList.remove("high");
-            localStorage.setItem("shareBunnerDisplayed", "true");
-        });
-        
-        setTimeout(()=> {
-            if(!localStorage.getItem("shareBunnerDisplayed")){
-            shareContainer.classList.add("high")
-            }
-            
-        }, 2000);
-    
-       
-       btnCloseModal.addEventListener('click', ()=> {
-        shareContainer.classList.remove('high');
-       });
+   
+   
 
        //Notes 1
        const notes1Bnt = document.querySelector('.notes1-btn');
