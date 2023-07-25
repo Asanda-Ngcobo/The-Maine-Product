@@ -187,34 +187,8 @@ gtag('config', 'UA-238019491-1');
           <div class="copyright">&copy; 2023, Ecolie Technologies. All rights reserved</div>
 </body>
 
-<div class="share-container">
-    <h3 class="closebtn">&times;</h3>
-    <p>Click the share button below to invite your friends, studymates and/or classmates to the site via Whatsapp.</p>
-    <button class="share-btn"><a href="whatsapp://send?text=https://www.ecolie.co.za"       data-action="share/whatsapp/share"  
-        target="_blank"> Share </a></button>
-  
-</div>
-<script>
-     const shareContainer = document.querySelector(".share-container");
-    const shareButton = document.querySelector(".share-btn");
-    const btnCloseModal = document.querySelector(".closebtn");
-        shareButton.addEventListener("click", ()=> {
-            shareContainer.classList.remove("high");
-            localStorage.setItem("shareBunnerDisplayed", "true");
-        });
-        
-        setTimeout(()=> {
-            if(!localStorage.getItem("shareBunnerDisplayed")){
-            shareContainer.classList.add("high")
-            }
-            
-        }, 2000);
-    
-       
-       btnCloseModal.addEventListener('click', ()=> {
-        shareContainer.classList.remove('high');
-       });
 
+<script>
       
 //Notes 1
 
