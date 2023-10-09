@@ -4442,7 +4442,7 @@ footer ul li a img:hover{
 }
 
 .socials{
-    background-color: rgb(248, 246, 246);
+    background-color: white;
 width: 100%;
     height: auto;
     margin-left: 0;
@@ -4450,6 +4450,9 @@ width: 100%;
     bottom: 0;
 }
 
+     .socials ul{
+    margin-left: 10%;
+}
 .socials ul li {
     display: inline-block;
     text-decoration: none;
