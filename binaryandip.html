@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="Images/icons8-microorganism-60.png"/>
+    <link rel="stylesheet" href="pages.css">
+    <title>Binary numbers</title>
+</head>
+<body>
+    <div class="home">
+        <div class="logo">
+           <img src="Images/ecolie logo.png" alt=""></div>
+    
+
+    <div class="videos">
+       
+
+           
+        <div class="video" id="binary">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_cooC3yG_p0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <h3>Decimals to 8-bit binary number.</h3>
+          
+           </p>
+           
+           <button class="test2">Test Your Knowledge</button>
+        </div>
+
+        <div class="solveforxfact4 notes">
+            <div class="getout4">&times;</div>
+        
+            <p class="question4">Enter the binary format of the following number.</p>
+
+               <h1 class="generated">0</h1>
+                
+            <input type="" class="input4" placeholder="Enter your the binary format here">
+           
+           <button class="answer4">Check</button>
+           
+           <p class="label-score4">Chances: <span class="chances4">1</span></p>
+           <p class="message4">You only get one chance.
+            </p>
+        
+           <button class="next4 notes">Next</button>
+        </div>
+                </div>
+
+                <Footer>
+                    <ft>
+                     <ul>
+                       
+                       
+                        <li><a href="whatsapp://send?text=https://www.ecolie.co.za"       data-action="share/whatsapp/share"  
+                            target="_blank"> Share</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                     </ul>
+                    </ft>
+            
+                </Footer>
+                <div class="socials">
+                    <ul>
+                       
+                      <li><a href="https://www.ecolie.com"><img src="Images/Icons/icons8-home-24.png" width="20px" alt=""></a></li>
+                        <li><a href="https://twitter.com/Ecolie_za"><img src="Images/Icons/icons8-twitter-100.png" width="20px" alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/company/ecolie-technologies/?viewAsMember=true"><img src="Images/Icons/icons8-linkedin-128.png" width="20px" alt=""></a></li>
+                        <li><a href="mailto:info@ecolie.co.za"><img src="Images/Icons/icons8-email-100.png" width="20px" alt=""></a></li>
+                    </ul>
+                   
+                </div>
+                  <div class="copyright">&copy; 2023, Ecolie Technologies. All rights reserved</div>
+</body>
+
+<div class="share-container">
+    <h3 class="closebtn">&times;</h3>
+    <p>Click the share button below to invite your friends, studymates and/or classmates to the site via Whatsapp.</p>
+    <button class="share-btn"><a href="whatsapp://send?text=https://www.ecolie.co.za"       data-action="share/whatsapp/share"  
+        target="_blank"> Share </a></button>
+    
+</div>
+<script>
+     const shareContainer = document.querySelector(".share-container");
+    const shareButton = document.querySelector(".share-btn");
+    const btnCloseModal = document.querySelector(".closebtn");
+        shareButton.addEventListener("click", ()=> {
+            shareContainer.classList.remove("high");
+            localStorage.setItem("shareBunnerDisplayed", "true");
+        });
+        
+        setTimeout(()=> {
+            if(!localStorage.getItem("shareBunnerDisplayed")){
+            shareContainer.classList.add("high")
+            }
+            
+        }, 2000);
+    
+       
+       btnCloseModal.addEventListener('click', ()=> {
+        shareContainer.classList.remove('high');
+       });
+
+       
+  
+       const generated = document.querySelector('.generated');
+const test2 = document.querySelector('.test2');
+const question4 = document.querySelector('.solveforxfact4');
+
+
+let interger = 0; // Define interger as a global variable
+let bytes = '';
+let answer = '';
+
+test2.addEventListener('click', () => {
+  question4.classList.remove('notes');
+  interger = Math.trunc(Math.random() * 255);
+  console.log(interger);
+  generated.textContent = interger;
+
+  const numberToBytes = function(interger) {
+  const binary = interger.toString(2);
+  const paddedBinary = binary.padStart(Math.ceil(binary.length / 8) * 8, '0');
+   bytes = paddedBinary.match(/.{1,8}/g);
+
+  return bytes;
+  
+  
+};
+
+console.log(numberToBytes(interger));
+ answer4 = numberToBytes(interger);
+
+});
+
+
+
+const displayMessage4 = function (message) {
+  document.querySelector('.message4').textContent = message;
+};
+
+// Checking your answer
+const submit4 = document.querySelector('.answer4');
+
+const input4 = String(document.querySelector('.input4').value);
+
+submit4.addEventListener('click', () => {
+  
+
+ 
+
+
+  if (input4 === answer4.toString()) {
+    displayMessage4('🎉 Congratulations!, your answer is correct');
+    question4.style.backgroundColor = '#60b347';
+    generated.style.backgroundColor = '#60b347';
+    document.querySelector('.question4').style.backgroundColor = '#60b347';
+    document.querySelector('.label-score4').style.backgroundColor = '#60b347';
+    document.querySelector('.message4').style.backgroundColor = '#60b347';
+    document.querySelector('.next4').classList.remove('notes');
+    document.querySelector('.chances4').style.backgroundColor = '#60b347';
+    document.querySelector('.getout4').style.backgroundColor = '#60b347';
+  } 
+  else {
+   
+    document.querySelector('.chances4').textContent = 0;
+    displayMessage4(`The correct answer is '${answer4}'. `);
+   
+    generated.style.backgroundColor = 'red';
+    document.querySelector('.chances4').style.backgroundColor = 'red';
+    question4.style.backgroundColor = 'red';
+    document.querySelector('.question4').style.backgroundColor = 'red';
+    document.querySelector('.label-score4').style.backgroundColor = 'red';
+    document.querySelector('.message4').style.backgroundColor = 'red';
+    document.querySelector('.next4').classList.remove('notes');
+    document.querySelector('.getout4').style.backgroundColor = 'red';
+  }
+});
+
+
+
+    document.querySelector('.getout4').addEventListener('click',()=>{
+        question4.classList.add('notes')
+    });
+
+    document.querySelector('.next4').addEventListener('click',()=>{
+        interger = Math.trunc(Math.random() * 255);
+  console.log(interger);
+  generated.textContent = interger;
+
+  const numberToBytes = function(interger) {
+  const binary = interger.toString(2);
+  const paddedBinary = binary.padStart(Math.ceil(binary.length / 8) * 8, '0');
+   bytes = paddedBinary.match(/.{1,8}/g);
+
+  return bytes;
+  
+  
+};
+
+console.log(numberToBytes(interger));
+ answer4 = numberToBytes(interger);
+
+
+        document.querySelector('.chances4').textContent = 1;
+    displayMessage4(`You only get one chance. `);
+  
+    generated.style.backgroundColor = 'black';
+    document.querySelector('.chances4').style.backgroundColor = 'black';
+    question4.style.backgroundColor = 'black';
+    document.querySelector('.question4').style.backgroundColor = 'black';
+    document.querySelector('.label-score4').style.backgroundColor = 'black';
+    document.querySelector('.message4').style.backgroundColor = 'black';
+   
+    document.querySelector('.getout4').style.backgroundColor = 'black';  
+   
+    
+submit4.addEventListener('click', () => {
+  const input4 = String(document.querySelector('.input4').value);
+
+ 
+
+
+  if (input4 === answer4.toString()) {
+    displayMessage4('🎉 Congratulations!, your answer is correct');
+    question4.style.backgroundColor = '#60b347';
+    generated.style.backgroundColor = '#60b347';
+    document.querySelector('.question4').style.backgroundColor = '#60b347';
+    document.querySelector('.label-score4').style.backgroundColor = '#60b347';
+    document.querySelector('.message4').style.backgroundColor = '#60b347';
+    document.querySelector('.next4').classList.remove('notes');
+    document.querySelector('.chances4').style.backgroundColor = '#60b347';
+    document.querySelector('.getout4').style.backgroundColor = '#60b347';
+  } 
+  else {
+   
+    document.querySelector('.chances4').textContent = 0;
+    displayMessage4(`The correct answer is '${answer4}'. `);
+   
+    generated.style.backgroundColor = 'red';
+    document.querySelector('.chances4').style.backgroundColor = 'red';
+    question4.style.backgroundColor = 'red';
+    document.querySelector('.question4').style.backgroundColor = 'red';
+    document.querySelector('.label-score4').style.backgroundColor = 'red';
+    document.querySelector('.message4').style.backgroundColor = 'red';
+    document.querySelector('.next4').classList.remove('notes');
+    document.querySelector('.getout4').style.backgroundColor = 'red';
+  }
+});
+
+    });
+</script>
+</html>
