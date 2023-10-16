@@ -5309,7 +5309,9 @@ footer ul li a img:hover{
         
     }
 
-   
+   ::placeholder{
+    font-size: 8px;
+ }
 
     .video h3{
    border-radius: 10px;
