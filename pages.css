@@ -2486,7 +2486,9 @@ footer ul li a img:hover{
     background: aqua;
     border-radius: 10px;
    }
-
+::placeholder{
+    font-size: 8px;
+ }
    .mathbasics a{
     background: aqua;
     text-decoration: none;
