@@ -1261,6 +1261,10 @@ display: none;
           
            
         }
+     
+     ::placeholder{
+    font-size: 8px;
+ }
         
         .notes4 span{
             background-color: black;
