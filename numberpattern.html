@@ -91,15 +91,15 @@ gtag('config', 'UA-238019491-1');
 <div class="solveforxfact1  notes">
     <div class="getout1">&times;</div>
 
-    <p class="question1">Given the arithmatic sequence: 18; 14; 10;... <br>
+    <p class="question1">Given the arithmetic sequence: 18; 14; 10;... <br>
     Determine a formula for the general term of the pattern.</p>
         
-    <input type="" class="input1 placeholder="Enter your answer here, e.g., -6n + 67 ">
+    <input type="" class="input1" placeholder="Enter your answer here, e.g., -6n+67 ">
    
    <button class="answer1">Check</button>
    
    <p class="label-score">Chances: <span class="chances">3</span></p>
-   <p class="message">You get three chances per question. Your answer should have spaces between the operator and numbers, e.g. -6n + 67.
+   <p class="message">You get three chances per question.  e.g. -6n+67.
     </p>
 
    <button class="next notes">Next</button>
@@ -214,12 +214,12 @@ gtag('config', 'UA-238019491-1');
 
     <p class="question5">What is the formula of the n<sup>th</sup> term of the pattern ?</p>
         
-    <input type="" class="input5" placeholder="Enter your answer here, e.g., Tn = an^2 + bn + c" >
+    <input type="" class="input5" placeholder="Enter your answer here, e.g., Tn = an^2+bn+c" >
    
    <button class="answer5">Check</button>
    
    <p class="label-score5">Chances: <span class="chances5">3</span></p>
-   <p class="message5">You get three chances per question. write the answer in this format: Tn = an^2 + bn + c. 
+   <p class="message5">You get three chances per question. write the answer in this format: Tn = an^2+bn+c. 
     </p>
 
    <button class="next5 notes">Next</button>
@@ -232,12 +232,12 @@ gtag('config', 'UA-238019491-1');
     <p class="question6">A new pattern is formed by adding 3 to each value of this pattern: -9; -6; 1; 12;..<br>
         What is the formula of the new pattern ?</p>
         
-    <input type="" class="input6">
+    <input type="" class="input6" placeholder="Tn = an^2+bn+c">
    
    <button class="answer6">Check</button>
    
    <p class="label-score6">Chances: <span class="chances6">3</span></p>
-   <p class="message6">You get three chances per question. write the answer in this format: Tn = an^2 + bn + c .
+   <p class="message6">You get three chances per question. write the answer in this format: Tn = an^2+bn+c.
     </p>
 
    <button class="next6 notes">Next</button>
@@ -465,7 +465,7 @@ gtag('config', 'UA-238019491-1');
     //input answer
   
     //what is the right answer
-    let answer1 =  '-4n + 22';
+    let answer1 =  '-4n+22';
    
     //let chances
     let chances = 3;
@@ -498,7 +498,7 @@ else if (input1  !== answer1){
             document.querySelector('.chances').textContent = chances;
     }
     else{
-        displayMessage('The correct answer -4n + 22. Tn = q + d(n-1), a is first term of the sequence (18) and d is the common difference (-4). Tn = 18 - 4(n -1), Tn = 18 - 4n + 4, Tn = -4n + 22.');
+        displayMessage('The correct answer -4n+22. Tn = q + d(n-1), a is first term of the sequence (18) and d is the common difference (-4). Tn = 18 - 4(n -1), Tn = 18-4n+4, Tn = -4n+22.');
         document.querySelector('.chances').textContent = 0;
         document.querySelector('.chances').style.backgroundColor = 'red';
         question1.style.backgroundColor = 'red';
@@ -567,7 +567,7 @@ else if (input2  !== answer2){
             document.querySelector('.chances2').textContent = chances2;
     }
     else{
-        displayMessage2('The correct answer 23. Tn = -4n + 22, -70 = -4n + 22,  -70 - 22 = -4n, -92 = -4n, n = 23.');
+        displayMessage2('The correct answer 23. Tn = -4n+22, -70 = -4n+ 22,  -70-22 = -4n, -92 = -4n, n = 23.');
         document.querySelector('.chances2').textContent = 0;
         document.querySelector('.chances2').style.backgroundColor = 'red';
         question2.style.backgroundColor = 'red';
@@ -629,12 +629,12 @@ else if (input2  !== answer2){
 
 else if (input3  !== answer3){
     if (chances3 > 1){
-            displayMessage3('Your answer is incorrect, unfortunately. Please try again. Remember the equation is Tn = -4n + 22 and n = 5 in this question.');
+            displayMessage3('Your answer is incorrect, unfortunately. Please try again. Remember the equation is Tn = -4n+22 and n = 5 in this question.');
             chances3--;
             document.querySelector('.chances3').textContent = chances3;
     }
     else{
-        displayMessage3('The correct answer 2. Tn = -4n + 22, T5= -4(5) + 22,  T(5)= -20 + 22, T5 = 2.');
+        displayMessage3('The correct answer 2. Tn = -4n+22, T5= -4(5)+22,  T(5)= -20+22, T5 = 2.');
         document.querySelector('.chances3').textContent = 0;
         document.querySelector('.chances3').style.backgroundColor = 'red';
         question3.style.backgroundColor = 'red';
@@ -759,7 +759,7 @@ const displayMessage5 = function (message) {
     //input answer
   
     //what is the right answer
-    let answer5 =  'Tn = 2n^2 - 3n - 8';
+    let answer5 =  'Tn = 2n^2-3n-8';
    
     //let chances
     let chances5 = 3;
@@ -789,7 +789,7 @@ else if (input5  !== answer5){
             document.querySelector('.chances5').textContent = chances5;
     }
     else{
-        displayMessage5('The correct answer Tn = 2n^2 - 3n - 8. a = 4/2 = 2, b = 3 - 6, b = -3, c = -9 + 1, c = -8, therefore, 2n^2 - 3n - 8.');
+        displayMessage5('The correct answer Tn = 2n^2-3n-8. a = 4/2 = 2, b = 3 - 6, b = -3, c = -9 + 1, c = -8, therefore, 2n^2-3n-8.');
         document.querySelector('.chances5').textContent = 0;
         document.querySelector('.chances5').style.backgroundColor = 'red';
         question5.style.backgroundColor = 'red';
@@ -825,7 +825,7 @@ else if (input5  !== answer5){
     //input answer
   
     //what is the right answer
-    let answer6 =  'Tn = 2n^2 - 3n - 5';
+    let answer6 =  'Tn = 2n^2-3n-5';
    
     //let chances
     let chances6 = 3;
@@ -855,7 +855,7 @@ else if (input6  !== answer6){
             document.querySelector('.chances6').textContent = chances6;
     }
     else{
-        displayMessage6('The correct answer Tn = 2n^2 - 3n - 5. a = 4/2 = 2, b = 3 - 6, b = -3, c = -6 + 1, c = -5, therefore, Tn = 2n^2 - 3n - 5.');
+        displayMessage6('The correct answer Tn = 2n^2-3n-5. a = 4/2 = 2, b = 3 - 6, b = -3, c = -6 + 1, c = -5, therefore, Tn = 2n^2-3n-5.');
         document.querySelector('.chances6').textContent = 0;
         document.querySelector('.chances6').style.backgroundColor = 'red';
         question6.style.backgroundColor = 'red';
