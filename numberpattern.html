@@ -232,7 +232,7 @@ gtag('config', 'UA-238019491-1');
     <p class="question6">A new pattern is formed by adding 3 to each value of this pattern: -9; -6; 1; 12;..<br>
         What is the formula of the new pattern ?</p>
         
-    <input type="" class="input6" placeholder="Tn = an^2+bn+c">
+    <input type="" class="input6" placeholder="Enter your answer here, e.g., 3n^2+3n+6">
    
    <button class="answer6">Check</button>
    
@@ -759,7 +759,7 @@ const displayMessage5 = function (message) {
     //input answer
   
     //what is the right answer
-    let answer5 =  'Tn = 2n^2-3n-8';
+    let answer5 =  '2n^2-3n-8';
    
     //let chances
     let chances5 = 3;
@@ -789,7 +789,7 @@ else if (input5  !== answer5){
             document.querySelector('.chances5').textContent = chances5;
     }
     else{
-        displayMessage5('The correct answer Tn = 2n^2-3n-8. a = 4/2 = 2, b = 3 - 6, b = -3, c = -9 + 1, c = -8, therefore, 2n^2-3n-8.');
+        displayMessage5('The correct answer 2n^2-3n-8. a = 4/2 = 2, b = 3 - 6, b = -3, c = -9 + 1, c = -8, therefore, 2n^2-3n-8.');
         document.querySelector('.chances5').textContent = 0;
         document.querySelector('.chances5').style.backgroundColor = 'red';
         question5.style.backgroundColor = 'red';
