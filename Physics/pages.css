@@ -9819,16 +9819,22 @@ footer ul li a img:hover{
 }
 
 .socials{
-    background-color: black;
-
+    background-color: white;
+width: 100%;
     height: auto;
-    margin-left: 4%;
+    margin-left: 0;
+    position: fixed;
+    bottom: 0;
 }
 
+     .socials ul{
+    margin-left: 10%;
+}
 .socials ul li {
     display: inline-block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
+   
 
     border-radius: 50%;
 }
