@@ -130,19 +130,14 @@ width: 20%;
 
 .sub__menu-1 a:hover{
 text-decoration: underline;
- padding: 10px;
+
  
 }
 .sub__menu-1 a:hover {
   color: grey;
 }
 
-nav ul li button {
-  padding: 5px;
 
-  color: white;
-  font-weight: 700;
-}
 
 #menu__bar {
   display: none;
